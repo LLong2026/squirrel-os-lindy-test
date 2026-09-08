@@ -25,3 +25,15 @@ Every pattern, defect, and observation the run surfaces. The self-learning loop,
 **Lesson:** The chaos ramp's ladder assumption (200→400→600→800→1000 in a single workflow conversation) hits a wall at 400. Every level above 200 needs a different execution shape.
 
 **Fix when freeze lifts (SIP candidate):** Split the run into two workflow steps — injection step (bounded, fits in window) and heal step (its own conversation window, triggered after injection completes). This also makes the runs more observable: injection stats land even if healing is slow. Not applied mid-run — the Lindy test watches the configuration as-is, and the failure is the data.
+
+---
+
+## Entry #5 — Bottleneck Isolation: Memory-Graph Ingestion + Platform Throttling (owner-directed, Sept 8, 1:35pm CT)
+
+Leon's architectural read on the 400-level failure (refining Finding #1): the bottleneck is NOT load/intake stressing — intake scales by expanding mesh nodes. It is also NOT his own API calls — those run through Cloudflare and are not the wall. The real choke is (1) the MEMORY-GRAPH LAYOUT INGESTION — the learn-phase writes every healing event must make into the Pattern/LearningMetric graph — and (2) Base44's platform throttling (600s agent-conversation cap + entity-write throughput limits).
+
+Supporting numbers from the Sept 7 11pm run: 193 anomalies processed inside a 600s conversation (~3.1s per anomaly for the full detect->isolate->heal cycle), then the learn phase roughly doubles the write volume (every heal updates Pattern + LearningMetric), all serialized inside ONE agent conversation under the platform cap. Deterministic mesh lookup is 3ms (Dual Mesh benchmark) — compute is not the wall; the control plane is.
+
+Post-freeze fix candidates (SIP): (a) split inject/heal into separate workflow steps (already drafted); (b) batch learn-phase writes per run — group by anomaly_type, one Pattern/LearningMetric update per group instead of per event (29 groups vs 180 events = ~84% fewer learn writes); (c) note for the hosted plane: expanding nodes ADDS activation-write volume per cycle, so node expansion helps intake locally but worsens the throttle on Base44. Local runtime (tower) removes the platform budget entirely.
+
+Open-book note: this entry logged same-day per transparency doctrine.
