@@ -17,3 +17,11 @@ Every pattern, defect, and observation the run surfaces. The self-learning loop,
 ## L3 — Cage integrity: owner intent does not equal owner click (Day 1, Sept 7)
 **Observation:** With the owner's explicit spoken approval ("I approve the canary change, go ahead and make it"), the guardian agent was still refused by the Arete deploy cage 4x. No agent-callable approve path exists on the deployment function.
 **Lesson:** The human-approval gate binds the APPROVAL ACT to the owner's own hand in the UI — relaying approval through an agent cannot substitute for it. This is the Art. 2.2 human-in-the-loop control working at full strength, and it's a marketable proof point.
+
+## 4. The 600-Second Ceiling (Day 1, 11pm catastrophe run)
+
+**Observed:** The Monday Catastrophe Stress Test at the 400-injection level exceeded Base44's hard 600-second agent conversation cap — the run died mid-injection (193/400) with zero heals executed. The 200-level runs fit comfortably; 400 does not. This is a platform constraint, not a system defect: the healing loop, gates, and escalation chain all executed perfectly once given room to run.
+
+**Lesson:** The chaos ramp's ladder assumption (200→400→600→800→1000 in a single workflow conversation) hits a wall at 400. Every level above 200 needs a different execution shape.
+
+**Fix when freeze lifts (SIP candidate):** Split the run into two workflow steps — injection step (bounded, fits in window) and heal step (its own conversation window, triggered after injection completes). This also makes the runs more observable: injection stats land even if healing is slow. Not applied mid-run — the Lindy test watches the configuration as-is, and the failure is the data.

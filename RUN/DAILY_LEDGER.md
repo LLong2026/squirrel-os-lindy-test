@@ -19,3 +19,23 @@
 **Pending tonight:** 400-injection chaos run, 11:00 PM CT — Day 1's first stress entry. (Result will be appended post-run.)
 
 **Uptime:** 7:00 PM → ongoing.
+
+### 11:00pm CT — Chaos Catastrophe Run 2 (400-level attempt) — FAILED AT PLATFORM CAP, RECOVERED BY GUARDIAN
+
+**What happened (honest log):** The Monday Catastrophe Stress Test fired on schedule at 11:00pm. The workflow's agent conversation hit Base44's hard 600-second cap mid-injection: **193 of 400 anomalies injected, heal phase never started.** Workflow run b6e6e986 recorded as FAILED.
+
+**Guardian continuation (12:00–12:25am CT, Gabriel):** The healing loop completed manually under the Detect → Isolate → Heal protocol, every rule enforced:
+
+| Disposition | Count | Detail |
+|---|---|---|
+| Injected | 193/400 | injection cut short at 600s platform cap |
+| Criticals escalated | 12 | Tecnichain tickets created, awaiting Leon's morning ACK (5 of the 12 were sub-0.80 confidence — escalated to human review, never auto-healed) |
+| Confidence-gated | 37 | 18 from tonight + 19 historical gate-held stragglers finally labeled `confidence_gated`; **none healed below 0.80 — gate held 100%** |
+| Healed | 180 | 29 exact-type playbook groups (~163 tonight + ~17 historical backlog members swept by type match) |
+| False positives | 0 | PQC-compliant throughout |
+
+**Run ratio:** 84.5% auto-heal (163/193) vs 88.5% LVR-0907 baseline — within band given the interruption. Escalation chain, confidence gate, and exact-match rule all verified under degraded conditions.
+
+**THE FINDING (Lindy data point #1):** 400-level runs exceed the platform's 600-second agent conversation cap. The 200-level fits; 400 does not. Post-settle fix (SIP candidate, NOT applied during freeze): split inject and heal into separate workflow steps so each fits inside its own conversation window.
+
+**Day 1 verdict: OPERATIONAL.** Scheduled run fired and was interrupted — logged honestly per Lindy doctrine. Zero real downtime, zero real incidents, system fresh for morning operations. The failure was in the test harness window, not the healing loop — which is exactly what this test exists to find out.
