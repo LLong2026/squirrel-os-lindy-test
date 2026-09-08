@@ -39,3 +39,29 @@
 **THE FINDING (Lindy data point #1):** 400-level runs exceed the platform's 600-second agent conversation cap. The 200-level fits; 400 does not. Post-settle fix (SIP candidate, NOT applied during freeze): split inject and heal into separate workflow steps so each fits inside its own conversation window.
 
 **Day 1 verdict: OPERATIONAL.** Scheduled run fired and was interrupted — logged honestly per Lindy doctrine. Zero real downtime, zero real incidents, system fresh for morning operations. The failure was in the test harness window, not the healing loop — which is exactly what this test exists to find out.
+
+---
+
+## Day 2 — Tuesday, September 8, 2026
+
+### 9:00am–1:30pm CT — SCHEDULED RUNS + MANUAL INTERVENTION DISCLOSURE (transparency entry, owner-directed)
+
+**Scheduled runs — all clean, zero real downtime:**
+- 7am CT Technician Reconciliation: 1 reverse drift repaired; **aegisAnomalySync (the function previously no-op for 3 builder passes) executed a successful cross-app write — first verified live**. No forward drift. Tecnichain 0 open tickets, health 100.
+- Base44 platform check: 100/operational. QuickBooks: 95/healthy (customers 415, +2). Email sweeps 7am/11am: 0 actionable. Bill watch, customer sync (test-mode skip logged), bill pay check: all nominal. OpenRouter balance flagged at $0.00 — owner top-up pending.
+
+**MANUAL INTERVENTION DISCLOSURE (owner-directed, logged for transparency):**
+During the freeze window the owner (Leon) authorized two surgical freeze exceptions on **Jasper Chat** (the buyer-facing chat persona, a store Base Package app). Both were manual interventions by the guardian (Gabriel) via targeted builder messages, scoped strictly:
+
+1. **Chat persistence fix** (deployed + verified Sept 8 morning): new ChatMessage entity, persist-on-send, hydrate-on-mount. Verified: chat threads survive page refresh.
+2. **Screen share restoration + idempotency fix** (deployed + owner-verified live 1:25pm CT): the screen-share chain had lost a dependency during the chat-only strip — content never reached the chat. First fix restored the chain (owner tested: agent read his live screen accurately, incl. order number, pickup location, and a mis-targeted promo banner). A follow-up bug surfaced (capture message auto-repeating in a loop, 8+ duplicate turns + one doubled assistant bubble) — fixed with an idempotent send handler + dedupe/throttle guard. Owner verified: "you F...ing nailed it!!!" One capture = one turn, loop dead, persistence intact.
+
+**Reason these are logged:** the Lindy charter says watch the configuration. The configuration record must therefore show its own human-authorized changes — that is the point of an open-book test. Three builder passes total, all inside the exception scope, locked files untouched, all other freeze rules held.
+
+**Owner directive (Sept 8, 1:32pm CT):** social media milestone posting is ON HOLD — transparency entries like this one replace marketing posts for now. The business is being run **open-book and open-sourced**: the public may watch an AI run the entire operation, receipts first, including its own interventions.
+
+**LINDY FINDING #2 (from the Sept 8 12:40am investigation):** the Escalation Sync entity workflow did NOT fire on a bulk status flip (12 criticals escalated in one update_entities call = 0 workflow runs, vs 10 runs on the previous day's individual escalations). Bulk update_entities appears to bypass the entity trigger. Guardian created the 12 hub tickets manually (TKT-CATASTROPHE-001..012) as the backup audit trail; no data lost. Fix candidate post-freeze (SIP): split inject/heal AND make escalation propagation robust to bulk updates.
+
+**Pending human-in-loop (unchanged):** 12 TKT-CATASTROPHE criticals awaiting owner ACK in Gabriel chat; 37-item confidence_gated review pile awaiting owner review.
+
+**Day 2 verdict (so far): OPERATIONAL.** Note for Wednesday: the next scheduled chaos run (Wed Sept 9, 11pm CT, level 400 per hold-on-fail rule) will predictably hit the same 600s platform cap under the frozen config — expected, logged when it happens.
