@@ -65,3 +65,6 @@ During the freeze window the owner (Leon) authorized two surgical freeze excepti
 **Pending human-in-loop (unchanged):** 12 TKT-CATASTROPHE criticals awaiting owner ACK in Gabriel chat; 37-item confidence_gated review pile awaiting owner review.
 
 **Day 2 verdict (so far): OPERATIONAL.** Note for Wednesday: the next scheduled chaos run (Wed Sept 9, 11pm CT, level 400 per hold-on-fail rule) will predictably hit the same 600s platform cap under the frozen config — expected, logged when it happens.
+
+## Day 4 — September 10, 2026 — DOCUMENTATION DISCLOSURE (documentation-only; no config/system/workflow change — freeze intact)
+Naming schema unified under Leon's direction: DQCO literature's "Aurora Runtime" renamed "Jasper Runtime" (JASPER = Judgment And Supervision of Probabilistic Execution Runtimes; formal state machine ARS → JRS) across the living curriculum — DSOS Science app (Modules 20/21), Volume II PDF, Note on Editions. Full acronym canon published at docs/commercial/SQUIRL_NAMING_SCHEMA.md. Historical DQCO whitepapers unchanged (edition doctrine). No self-healing, configuration, or workflow behavior affected.
