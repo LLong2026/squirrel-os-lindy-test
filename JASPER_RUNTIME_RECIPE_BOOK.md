@@ -210,7 +210,7 @@ Warning — Conflict in Composed Invariants
 If I_A  I_B is unsatisfiable, the composed system has no valid states. Blueprint ∧
 validation (see Section 3.4) must reject this configuration at parse time. Deployment 
 of a composed invariant set that is unsatisfiable is a critical design defect and must 
-never reach a production Genesis Kernel instance.
+never reach a production JASPER Runtime Kernel instance.
 Conflict Resolution Rules
 When partial conflicts exist (invariants share state variables with overlapping but not 
 fully exclusive ranges), the following resolution rules apply in priority order:
@@ -317,7 +317,7 @@ cases not
 caught by 
 Tiers 1–2
 Axiom I-3 — Defense in Depth
-All three enforcement tiers must be present in any Genesis-compliant system. 
+All three enforcement tiers must be present in any JASPER-compliant system. 
 Reliance on a single tier — even Tier 1 — is insufficient. Tier 1 failures surface as 
 deployment defects; Tier 2 failures surface as runtime faults; Tier 3 failures surface 
 as recovery events. A system with only Tier 1 enforcement has no protection 
@@ -490,7 +490,7 @@ input, satisfied all invariant predicates at the time of commitment, and was
 recorded faithfully. The cryptographic chain ensures that the audit log cannot 
 be retroactively falsified.
 Axiom II-2 — Chain Integrity
-Any Genesis-compliant system that cannot present a valid, unbroken Truth Chain 
+Any JASPER-compliant system that cannot present a valid, unbroken Truth Chain 
 from s₀ to its current state is in an undefined operational condition. It must be 
 treated as potentially compromised and must not be permitted to commit new state 
 transitions until chain integrity is restored from a verified checkpoint.
@@ -645,7 +645,7 @@ engine changes the authoring modality; it does not change the execution semantic
 Definition — Blueprint
 A Blueprint is a formally structured declarative document — authored in YAML or 
 JSON — that completely describes a deterministic runtime configuration for a 
-Genesis Kernel instance. A blueprint specifies the genesis state, all invariant 
+JASPER Runtime Kernel instance. A blueprint specifies the genesis state, all invariant 
 predicates, all transition definitions, all declared effects, and all telemetry hooks. A 
 sealed blueprint is cryptographically signed and is the sole authoritative source of 
 configuration for its bound kernel instance.
@@ -663,7 +663,7 @@ the kernel extension layer:
 ● Direct access to State Ledger storage
 
 3.2   Blueprint Schema
-A blueprint is a YAML or JSON document conforming to the Genesis Blueprint Schema 
+A blueprint is a YAML or JSON document conforming to the JASPER Blueprint Schema 
 v1.0. The top-level structure contains the following required and optional fields:
 Field Type Required Description
 blueprint_id UUID v4 string Yes Globally unique 
@@ -714,7 +714,7 @@ Field Type Required Description
 (metric | event), 
 and expression.
 Annotated Blueprint Snippet
-# Genesis Blueprint Schema v1.0 — Annotated Sample blueprint_id: "f47ac10b-
+# JASPER Blueprint Schema v1.0 — Annotated Sample blueprint_id: "f47ac10b-
 58cc-4372-a567-0e02b2c3d479"   # UUID v4 — globally unique, immutable 
 version: "1.0.0"                                         # SemVer — increment 
 on any schema change  genesis_state: 
@@ -845,7 +845,7 @@ current transition
 state.balance > 
 prev.balance
 3.4   Blueprint Validation Pipeline
-Before a blueprint can be deployed to a Genesis Kernel instance, it must pass through 
+Before a blueprint can be deployed to a JASPER Runtime Kernel instance, it must pass through 
 the five-stage Blueprint Validation Pipeline in sequence. A failure at any stage halts  
 the pipeline and returns a structured validation error report. Stages are not skipped. A 
 blueprint that has not been sealed by Stage 5 cannot be bound to a kernel instance.
@@ -940,7 +940,7 @@ signing
 infrastructure
 
 3.5   Engine Runtime Binding
-A sealed blueprint is a static document until it is bound to a running Genesis Kernel  
+A sealed blueprint is a static document until it is bound to a running JASPER Runtime Kernel  
 instance. Binding is the process by which the blueprint's declarative specifications are 
 translated into the kernel's native operational structures. Binding is a one-time  
 operation performed at kernel instance initialization.
@@ -990,7 +990,7 @@ accessible to domain experts who are not system engineers.
 Axiom IV-1 — Brief Before Blueprint
 No blueprint authoring may begin before a Builder Brief has been completed, 
 reviewed, and signed off by both the Problem Owner and the System Builder. A 
-blueprint authored without a signed Builder Brief is not Genesis-compliant and must 
+blueprint authored without a signed Builder Brief is not JASPER-compliant and must 
 not be submitted to the Validation Pipeline.
 The Builder Brief serves three distinct functions:
 16.Alignment: It creates a shared, signed record of what the system is required 
@@ -1385,7 +1385,7 @@ The formal contract between a runtime system and its external environment, speci
 a set of boolean predicates that must evaluate to true for every reachable state of the 
 system, under all possible input sequences, without exception. See Section 1.1.
 Genesis State (s₀)
-The designated initial state of a Genesis Kernel instance. Every execution trace begins 
+The designated initial state of a JASPER Runtime Kernel instance. Every execution trace begins 
 from s₀. The genesis state is declared in the blueprint's genesis_state field and installed 
 
 as the first entry in the State Ledger at binding time. It is the anchor of the Truth Chain. 
@@ -1405,7 +1405,7 @@ entry to the Truth Chain. See Section 2.4.
 Blueprint
 A formally structured declarative document (YAML or JSON) conforming to the Genesis 
 Blueprint Schema, which completely describes a deterministic runtime configuration for 
-a Genesis Kernel instance. A blueprint specifies the genesis state, all invariants, all 
+a JASPER Runtime Kernel instance. A blueprint specifies the genesis state, all invariants, all 
 transitions, all declared effects, and all telemetry hooks. A blueprint is sealed by 
 cryptographic signature before deployment. See Part III.
 Predicate DSL
