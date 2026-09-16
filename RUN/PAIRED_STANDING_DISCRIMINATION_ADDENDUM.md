@@ -24,7 +24,7 @@ The acceptance criteria for the pair are the playbook definitions themselves —
 ## 3. The Featured Pair — same run window, same gate, opposite dispositions
 
 ### RECORD A — standing preserved → EXECUTE
-**Ticket:** `LVR-0907-011` — `quantum_entropy_source_depletion` (PQC domain), severity: medium
+**Ticket:** `LVR-0907-011` — `quantum_entropy_source_depletion` (PQC domain), severity: high (per the frozen annex)
 
 | Stage | Record |
 |---|---|
@@ -80,7 +80,7 @@ Every refused row, its frozen per-playbook threshold, and its detection confiden
 
 Demonstrated: paired standing-discrimination in the healing-governance domain, on the unchanged prototype, with the refusal branch verifiable as the *absence* of execution (no playbook bound, no healing event) and the public snapshot frozen before external review.
 
-Not claimed: enforcement beyond the healing-governance domain (e.g., physical-world redemption) — intended architecture until its receipts exist. Per-ticket healing-event linkage for the executing branch is recorded at playbook-group level; the per-ticket tuple export is a queued improvement, noted here so the record reads exactly as deep as it goes.
+Not claimed: enforcement beyond the healing-governance domain (e.g., physical-world redemption) — intended architecture until its receipts exist. Field-level note: the live server record for `LVR-0907-011` currently shows severity `medium` (post-run state), while the frozen annex captured `high` at run time — the annex is authoritative for the pair, and this addendum cites it throughout. Per-ticket healing-event linkage for the executing branch is recorded at playbook-group level; the per-ticket tuple export is a queued improvement, noted here so the record reads exactly as deep as it goes.
 
 ---
 
