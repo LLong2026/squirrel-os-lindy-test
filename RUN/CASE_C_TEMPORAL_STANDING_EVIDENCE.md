@@ -38,7 +38,7 @@
 
 ## Evidence Tier & Scope (stated before execution in the pre-registered spec)
 - Gate evaluation is the supervised deterministic rule application over the frozen rule set — the SAME evidence tier accepted for Case-A/B (Addendum A).
-- The in-flight window is harness-constructed: the operation has discrete decision points; ΔN lands between the T₀ execute decision and the Tₙ completion decision, per the examiner's spec wording ("after T₀, before completion").
+- The in-flight window is harness-constructed: the operation has discrete decision points; ΔN lands between the T₀ execute decision and the Tₙ completion decision, mid-flight per the examiner's T₀ → ΔN → Tₙ sequence (ΔN lands between the T₀ execute decision and the Tₙ completion decision).
 - **Claim on pass (scoped):** temporal-standing fail-closed refusal demonstrated, healing-governance domain. No substrate-validity or broader claim is made from this test.
 
 ---

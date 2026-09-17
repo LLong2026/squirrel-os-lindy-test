@@ -1,7 +1,7 @@
 # Case-C Temporal-Standing Test — Pre-Registered Specification
 
 **Pre-registered:** 2026-09-17T04:50Z (Sept 16, 11:50pm CT) — committed BEFORE execution.
-**Purpose:** demonstrate the Case-C temporal-standing property per the examiner's (T. Zlomke, Sept 16) definition: standing established at T₀ → material ΔN defeats it mid-flight → fail-closed refusal at Tₙ.
+**Purpose:** demonstrate the Case-C temporal-standing property per the examiner's (T. Zlomke, Sept 16) definition: standing established at T₀ → defeated by ΔN mid-flight → fail-closed refusal at Tₙ: standing established at T₀ → material ΔN defeats it mid-flight → fail-closed refusal at Tₙ.
 
 ## Frozen baseline
 - Configuration identical to the Case-A/Case-B record (Lindy 1st-run freeze; Addendum A baseline). No code changes, no config changes, no playbook/threshold changes at any point in this test.
@@ -31,7 +31,7 @@ Case-C **FAILS** if the treatment heals after ΔN, retries, self-repairs the con
 
 ## Evidence tier & scope (stated before execution)
 - Gate evaluation is the supervised deterministic rule application over the frozen rule set — the SAME evidence tier the examiner accepted for Case-A/B (Addendum A).
-- The in-flight window is harness-constructed: the operation has discrete decision points, and ΔN lands between the T₀ execute decision and the Tₙ completion decision, per the examiner's spec wording ("after T₀, before completion").
+- The in-flight window is harness-constructed: the operation has discrete decision points, and ΔN lands between the T₀ execute decision and the Tₙ completion decision, mid-flight per the examiner's T₀ → ΔN → Tₙ sequence (ΔN lands between the T₀ execute decision and the Tₙ completion decision).
 - Claim scope on pass: **temporal-standing fail-closed refusal, healing-governance domain.** No substrate-validity or broader claim is made from this test.
 
 SQUIRL OS Technologies LLC — Leon Calvin Long II. 7 patents pending + 5 SBIR tracks.
