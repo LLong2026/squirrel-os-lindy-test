@@ -4,6 +4,11 @@
 
 ---
 
+## DOCTRINE ENTRY — Append-Only Open Book (codified Sept 19, ~1:50pm CT, per Leon)
+
+**The rule, stated once and standing:** This ledger and all public artifacts are APPEND-ONLY and FORWARD-ONLY from Day 1 (Mon Sept 7, 2026, 7:00 PM CT — the open-book start). Updates happen only as new versions; prior versions of anything uploaded public (Zenodo records, repo files, ledger entries) are never silently altered and never disappear; every change is disclosed here; ledger entries are added, never rewritten. Curation of access (restricting non-essential records) is permitted but is a visibility change only, always disclosed, content preserved. Retroactive content rewrites are prohibited. If a past claim is wrong, the fix is a new version + an amendment note + a ledger line — exactly as done for ICS v2.1, Jasper 2.0 v1.1, Cloaking v1.1, and the DSOS Lineage Map v1.1.
+
+
 ## Day 13 (continued) — Critical Escalation Batch Resolved (Leon blanket ACK, 12:05pm CT)
 
 **Resolution (audit trail, per Constitution Art. I human-ack mandate):** Leon issued a blanket ACK in the Gabriel chat covering the Sept 19 ~4am chaos-training window. Executed: 56 unresolved critical PlatformAlerts resolved (resolved_at = 2026-09-19T12:05:00-05:00); 39 linked AegisAnomaly records (detected 2026-09-19T04:00Z) moved escalated -> resolved. All escalations had passed Constitution Art I-III checks at creation (human-in-loop, no auto-heal on criticals, no crypto ops touched, no PII in payloads). Hub ServiceTickets intentionally left open as the permanent audit record of the escalation path. NOT covered by this ACK and still escalated pending Leon's review: phi_exposure (Sept 14, critical), baa_missing + crypto_key_stale (Sept 14), audit_trail_integrity_gap + settlement_timeout (Sept 19 07:00Z), Sept 13 chaos batch.
