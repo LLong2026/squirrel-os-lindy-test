@@ -8,7 +8,7 @@ Current, verified versions of the core research papers and Universal Bridge tech
 | DSOS_Science_Volume_II_Continuations_Modules_19-28.pdf | 22840772 | 10.5281/zenodo.22840772 | 23 | DSOS Science Vol II — 8+5 count, typo-fixed |
 | DSOS_to_PQC_Lineage_Map_Leon_Calvin_Long_II.pdf | 22841934 | 10.5281/zenodo.22841934 | 40 | Lineage Map v1.1 — 6 TBD citations reframed |
 | ISO_20022_Banking_Bridge_-XLM.pdf | 22841997 | 10.5281/zenodo.22841997 | 7 | v1.1 — Universal Bridge set; early trio armored |
-| Inverse_Complexity_Scaling_DSOS_CAI_v2_Amended.pdf | 22840588 | 10.5281/zenodo.22840588 | 12 | ICS v2 (amended) — projections relabeled, Section 6 rescaled to LVR-0907 receipts |
+| Inverse_Complexity_Scaling_DSOS_CAI_v2_Amended.pdf | 22847345 | 10.5281/zenodo.22847345 | 12 | ICS v2.1 (amended + math-audit fix, Sept 19, 2026) — projections relabeled, Section 6 rescaled to LVR-0907 receipts; §5.1 'observed'→'projected' one-word correction (187-hour MTBF is a Table 2 projection, not a measurement). Supersedes 10.5281/zenodo.22840588. |
 | Kolmogrov_-_Shannon_Bridge.pdf | 22841997 | 10.5281/zenodo.22841997 | 4 | v1.1 — Universal Bridge set; early trio armored |
 | Recursive_Self-Improvement_in_Settlement_Operating_Systems_—_A_Formal_Architecture_Description_(1).pdf | 21748182 | 10.5281/zenodo.21748182 | 37 | Recursive self-improvement formal architecture |
 | SQUIRL_IP_PROTECTION_DOCTRINE.pdf | 22842200 | 10.5281/zenodo.22842200 | 4 | IP Protection Doctrine capstone |
