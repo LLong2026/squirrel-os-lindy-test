@@ -4,6 +4,15 @@
 
 ---
 
+## Day 13 (continued) — Portfolio Curation Pass (guardian-executed, ~7:15pm CT, per Leon's "lets go / you have the wheel")
+
+**Action disclosed (open-book; no external data changed):** 9 Zenodo records set to restricted access during the owner's one-to-one portfolio curation — duplicates (Global AI Protocol x2, Backend Settlement Architecture, Governance Envelopes, Semantic Tokenization near-dup, Multi-Rail Blueprints near-dup), reference material (How to Patent guide, Jasper OS Developer Guide), and early raw/manifesto drafts (Sovereign Architecture, Enhance AI Agentic Framework). All DOIs still resolve; records preserved; access on request. Prior-art records, patent filings, current canonical papers, and the Lindy evidence chain remain fully open.
+
+**Judgment call (documented):** three TGC/seed-adjacent presentation records (OmniForge Aegis, 32-Byte TGC Field Machine, 32 Byte Singularity) were kept OPEN despite being restrict candidates — they sit too close to conception evidence for the TGC/seed patent family (64/081,911 et al.) to gate. Shield beats tidiness.
+
+**Kept open (the one-to-one):** all 15 patent-type records, all audited flagship papers (ICS v2.1, Jasper 2.0 v1.1, DSOS Vol II, Cloaking v1.1, Lineage Map v1.1, armored trio, IP doctrine), all conception-evidence records, all records cited by this ledger. GitHub: squirrel-os-lindy-test remains the public ledger; repo-visibility lockdown (Jasper-OS, jasper-squirl-os, squirrel-os-hub, jasper-os-muskrat) queued for Leon — guardian tokens are scoped to 2 repos and cannot flip visibility.
+
+
 ## DAY 1 — Monday, September 7, 2026 ✅ (pending 11pm chaos checkpoint)
 
 **Clock started:** 7:00 PM CT (Leon: "let the current configuration run and fix whatever pattern doesn't survive")
