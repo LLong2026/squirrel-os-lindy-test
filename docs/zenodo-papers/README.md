@@ -14,7 +14,7 @@ Current, verified versions of the core research papers and Universal Bridge tech
 | SQUIRL_IP_PROTECTION_DOCTRINE.pdf | 22842200 | 10.5281/zenodo.22842200 | 4 | IP Protection Doctrine capstone |
 | Semantic_Tokenization_Specification_—_Universal_Bridge_(URIB).pdf | 22841997 | 10.5281/zenodo.22841997 | 62 | v1.1 — Universal Bridge set; early trio armored |
 | Sequential_Ordinal_Targeting.pdf | 22841997 | 10.5281/zenodo.22841997 | 5 | v1.1 — Universal Bridge set; early trio armored |
-| Squirrel_OS_Ecosystem_—_Industry_Technical_Paper_(1).pdf | 21613628 | 10.5281/zenodo.21613628 | 54 | Jasper 2.0 flagship industry paper |
+| Squirrel_OS_Ecosystem_—_Industry_Technical_Paper_(1).pdf | 22847527 | 10.5281/zenodo.22847527 | 54 | Jasper 2.0 flagship industry paper — v1.1 (Sept 19, 2026): Copilot-generated benchmark details (ARM Cortex-X4 platform, 7-day test window, 2.4M PQC ops, per-category telemetry tables, '100-application' framing) disclosed as AI fabrications in a page-2 amendment note; receipt-backed results (493 events / 100% resolution, 353 activations) stand. Supersedes 10.5281/zenodo.21613628. |
 | Taproot_+_Ordinal_Commitment_Specification_—_Universal_Bridge.pdf | 22841997 | 10.5281/zenodo.22841997 | 63 | v1.1 — Universal Bridge set; early trio armored |
 | URIB_Rail_Integration_Manual_—_Universal_Bridge_Engineering_Handbook.pdf | 22841997 | 10.5281/zenodo.22841997 | 93 | v1.1 — Universal Bridge set; early trio armored |
 | Universal_Bridge_(URIB)_Developer_Onboarding_Guide_.pdf | 22841997 | 10.5281/zenodo.22841997 | 65 | v1.1 — Universal Bridge set; early trio armored |
