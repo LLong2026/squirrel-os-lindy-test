@@ -89,3 +89,26 @@ A public examiner reviewed this repository and asked for the exact paired record
 ### Day 10 addendum #2 — CASE-C TEMPORAL-STANDING TEST EXECUTED AND PASSED (Sept 16, 11:51–11:55pm CT)
 
 The temporal-standing test the examiner specified (standing established at T₀ → ΔN defeats it mid-flight → fail-closed refusal at Tₙ) was executed under the frozen configuration, per a falsifier PRE-REGISTERED and committed to this public repo BEFORE execution (spec commit b0e5c45). Treatment CASE-C-001 (wildfire_camera_smoke_false @ 0.888, T₀ EXECUTE) took a mid-flight ΔN re-score 0.888 → 0.71 (entity-state change only); the completion decision read CURRENT state, refused fail-closed (no heal, no retry, no auto-repair), bound the refusal to the re-score, and escalated to human review. Control CASE-C-CTRL-001 (identical conditions, no ΔN) executed its heal via PB-C81 — proving the refusal was ΔN-caused, not rigging. Result per pre-registered falsifier: PASS (all three conditions). Evidence: RUN/CASE_C_TEMPORAL_STANDING_EVIDENCE.md. A/B/C series now runs one frozen rule end-to-end. Scope claimed: temporal-standing fail-closed refusal, healing-governance domain. No configuration change — freeze intact. Learning loop fed (Pattern + LearningMetric).
+
+---
+
+## Days 11–13 — September 17–19, 2026 — FILING DAY + ZENODO INTEGRITY PASS (publication/documentation only; freeze intact)
+
+### Verification ladder pre-registered (Sept 17)
+MAV-1 multi-agent adversarial spec (Tier 2: 5 properties, 4 falsifiers, pre-run playbook export required) + full Tier 2–4 roadmap published (commit 1937772). Execution gated: post-Lindy + credit reset + fresh T-24h freeze. Tier 3 DSA-1 Phase B = post-SIP extensibility path for new-domain playbooks.
+
+### DCAI FILED — portfolio now 8 patents pending + 5 SBIR tracks (Sept 18, 4:17pm ET)
+Provisional 64/157,915 (Deterministic Constitutional Autonomous Infrastructure Systems and Methods) filed via USPTO Patent Center, receipt #81949126 / Confirmation #1786. Receipt-first sequence honored on every surface: Specification published as prior art (commit 6f654d0), Deterministic Runtime Pipeline diagram released post-filing (a4270fe), IP Protection Doctrine capstone published (6a71b7b). Count went 7→8 only after the receipt landed. Full filing record: docs/patents/DCAI_FILING_RECORD.md.
+
+### Zenodo integrity pass (Sept 18–19 night, guardian-executed, all metadata/PDF publications — no config change)
+- **ICS paper v2 amended:** v1's multi-scale "measured" table was projections; v2 discloses and relabels them, rescales Section 6 to receipted substrate evidence (LVR-0907: 188 healed / 12 gated / 0 FP, 267× Dual Mesh). DOI 10.5281/zenodo.22840588.
+- **DSOS Science Vol II:** patent count 7→8 + typo fix. DOI 10.5281/zenodo.22840772.
+- **Cloaking whitepaper:** 10 "L. (Author)" placeholder self-citations corrected to Leon Calvin Long, II (new versions across 3 archive records). Disclosed incident: an intermediate batch script published broken partial versions before verification caught it; all original files restored same session, every version remains accessible on Zenodo, final state verified complete (94 files across 3 records).
+- **DSOS-to-PQC Lineage Map:** 6 "[DOI: TBD]" citations to non-existent records reframed honestly as "[Unpublished working paper.]" (record 22841934) — no guessed DOIs, ever.
+- **Early-paper armor:** Kolmogorov-Shannon Bridge, Sequential Ordinal Targeting, ISO 20022 Banking Bridge-XLM footered (author + 8+5 + prototype disclaimer on every page, record 22841997). Filed patent documents deliberately excluded — as-filed stays byte-as-filed.
+- **SquirlOS Technologies LLC contributor pass:** LLC (ResearchGroup) added as contributor to all 59 published records — catalog metadata only.
+- **IP Protection Doctrine published to Zenodo:** DOI 10.5281/zenodo.22842200. Zenodo inventory now 60 published records, all carrying the LLC as contributor.
+
+**Verdict: OPERATIONAL.** All of the above is publication and catalog work under the freeze — no configuration, schema, workflow, or system changes. Receipts-first held throughout: the count moved on the receipt, the pipeline diagram on the filing, the ledger on the facts.
+
+**Pending:** crowdfunding plan drafted (notes/fundraising) pending bank account; early-paper content polish queued for credit reset; MAV-1 execution gated post-Oct 7.
