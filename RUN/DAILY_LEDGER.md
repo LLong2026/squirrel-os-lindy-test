@@ -4,6 +4,13 @@
 
 ---
 
+## Day 13 (continued) — Critical Escalation Batch Resolved (Leon blanket ACK, 12:05pm CT)
+
+**Resolution (audit trail, per Constitution Art. I human-ack mandate):** Leon issued a blanket ACK in the Gabriel chat covering the Sept 19 ~4am chaos-training window. Executed: 56 unresolved critical PlatformAlerts resolved (resolved_at = 2026-09-19T12:05:00-05:00); 39 linked AegisAnomaly records (detected 2026-09-19T04:00Z) moved escalated -> resolved. All escalations had passed Constitution Art I-III checks at creation (human-in-loop, no auto-heal on criticals, no crypto ops touched, no PII in payloads). Hub ServiceTickets intentionally left open as the permanent audit record of the escalation path. NOT covered by this ACK and still escalated pending Leon's review: phi_exposure (Sept 14, critical), baa_missing + crypto_key_stale (Sept 14), audit_trail_integrity_gap + settlement_timeout (Sept 19 07:00Z), Sept 13 chaos batch.
+
+**Honest note (builder-resident tell, disclosed):** the criticals waited ~8 hours for human ACK — exactly as designed (criticals never auto-resolve), but the wait time itself is the operator-dependency data point for the operator-independence ladder.
+
+
 ## Day 13 (continued) — Portfolio Curation Pass (guardian-executed, ~7:15pm CT, per Leon's "lets go / you have the wheel")
 
 **Action disclosed (open-book; no external data changed):** 9 Zenodo records set to restricted access during the owner's one-to-one portfolio curation — duplicates (Global AI Protocol x2, Backend Settlement Architecture, Governance Envelopes, Semantic Tokenization near-dup, Multi-Rail Blueprints near-dup), reference material (How to Patent guide, Jasper OS Developer Guide), and early raw/manifesto drafts (Sovereign Architecture, Enhance AI Agentic Framework). All DOIs still resolve; records preserved; access on request. Prior-art records, patent filings, current canonical papers, and the Lindy evidence chain remain fully open.
