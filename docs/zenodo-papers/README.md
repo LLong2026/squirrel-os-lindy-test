@@ -1,20 +1,20 @@
 # Zenodo–GitHub Research Sync
 
-Current, verified versions of the core research papers and Universal Bridge technical references — mirrored 1:1 from Zenodo (filenames unchanged) so the public repo and the DOI record match. Each file is the live version of record as of September 19, 2026, post integrity-pass (placeholders corrected, projections relabeled, citations reframed, armor footers added where noted). Older versions remain accessible on Zenodo per its version history.
+Current, verified versions of the core research papers and Universal Bridge technical references — mirrored 1:1 from Zenodo (filenames unchanged) so the public repo and the DOI record match. Each file is the live version of record as of September 19, 2026, post integrity-pass (placeholders corrected, projections relabeled, citations reframed, armor footers added where noted; per-page DOI+ORCID footer stamp pass of Sept 20, 2026 applied where noted). Older versions remain accessible on Zenodo per its version history.
 
 | File | Zenodo Record | DOI | Pages | Status |
 |---|---|---|---|---|
 | Cloaking_Protocol_Whitepaper.pdf | 22841802 | 10.5281/zenodo.22841802 | 31 | Cloaking Protocol v1.1 — 10 self-citations corrected |
-| DSOS_Science_Volume_II_Continuations_Modules_19-28.pdf | 22840772 | 10.5281/zenodo.22840772 | 23 | DSOS Science Vol II — 8+5 count, typo-fixed |
+| DSOS_Science_Volume_II_Continuations_Modules_19-28.pdf | 22852041 | 10.5281/zenodo.22852041 | 23 | DSOS Science Vol II v1.1 — footer DOI+ORCID revision (Sept 20, 2026). Supersedes 10.5281/zenodo.22840772. |
 | DSOS_to_PQC_Lineage_Map_Leon_Calvin_Long_II.pdf | 22841934 | 10.5281/zenodo.22841934 | 40 | Lineage Map v1.1 — 6 TBD citations reframed |
 | ISO_20022_Banking_Bridge_-XLM.pdf | 22841997 | 10.5281/zenodo.22841997 | 7 | v1.1 — Universal Bridge set; early trio armored |
 | Inverse_Complexity_Scaling_DSOS_CAI_v2_Amended.pdf | 22847345 | 10.5281/zenodo.22847345 | 12 | ICS v2.1 (amended + math-audit fix, Sept 19, 2026) — projections relabeled, Section 6 rescaled to LVR-0907 receipts; §5.1 'observed'→'projected' one-word correction (187-hour MTBF is a Table 2 projection, not a measurement). Supersedes 10.5281/zenodo.22840588. |
 | Kolmogrov_-_Shannon_Bridge.pdf | 22841997 | 10.5281/zenodo.22841997 | 4 | v1.1 — Universal Bridge set; early trio armored |
 | Recursive_Self-Improvement_in_Settlement_Operating_Systems_—_A_Formal_Architecture_Description_(1).pdf | 21748182 | 10.5281/zenodo.21748182 | 37 | Recursive self-improvement formal architecture |
-| SQUIRL_IP_PROTECTION_DOCTRINE.pdf | 22842200 | 10.5281/zenodo.22842200 | 4 | IP Protection Doctrine capstone |
+| SQUIRL_IP_PROTECTION_DOCTRINE.pdf | 22852047 | 10.5281/zenodo.22852047 | 4 | IP Protection Doctrine v1.1 — footer DOI+ORCID revision (Sept 20, 2026). Supersedes 10.5281/zenodo.22842200. |
 | Semantic_Tokenization_Specification_—_Universal_Bridge_(URIB).pdf | 22841997 | 10.5281/zenodo.22841997 | 62 | v1.1 — Universal Bridge set; early trio armored |
 | Sequential_Ordinal_Targeting.pdf | 22841997 | 10.5281/zenodo.22841997 | 5 | v1.1 — Universal Bridge set; early trio armored |
-| Squirrel_OS_Ecosystem_—_Industry_Technical_Paper_(1).pdf | 22847527 | 10.5281/zenodo.22847527 | 54 | Jasper 2.0 flagship industry paper — v1.1 (Sept 19, 2026): Copilot-generated benchmark details (ARM Cortex-X4 platform, 7-day test window, 2.4M PQC ops, per-category telemetry tables, '100-application' framing) disclosed as AI fabrications in a page-2 amendment note; receipt-backed results (493 events / 100% resolution, 353 activations) stand. Supersedes 10.5281/zenodo.21613628. |
+| Squirrel_OS_Ecosystem_Industry_Technical_Paper_v1.2.pdf | 22852039 | 10.5281/zenodo.22852039 | 55 | Jasper 2.0 v1.2 — footer DOI+ORCID revision (Sept 20, 2026). Supersedes 10.5281/zenodo.22847527 (v1.1: Copilot benchmark fabrications disclosed in page-2 amendment; receipt-backed results stand). |
 | Taproot_+_Ordinal_Commitment_Specification_—_Universal_Bridge.pdf | 22841997 | 10.5281/zenodo.22841997 | 63 | v1.1 — Universal Bridge set; early trio armored |
 | URIB_Rail_Integration_Manual_—_Universal_Bridge_Engineering_Handbook.pdf | 22841997 | 10.5281/zenodo.22841997 | 93 | v1.1 — Universal Bridge set; early trio armored |
 | Universal_Bridge_(URIB)_Developer_Onboarding_Guide_.pdf | 22841997 | 10.5281/zenodo.22841997 | 65 | v1.1 — Universal Bridge set; early trio armored |

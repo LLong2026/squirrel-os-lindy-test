@@ -133,3 +133,20 @@ Provisional 64/157,915 (Deterministic Constitutional Autonomous Infrastructure S
 **Verdict: OPERATIONAL.** All of the above is publication and catalog work under the freeze — no configuration, schema, workflow, or system changes. Receipts-first held throughout: the count moved on the receipt, the pipeline diagram on the filing, the ledger on the facts.
 
 **Pending:** crowdfunding plan drafted (notes/fundraising) pending bank account; early-paper content polish queued for credit reset; MAV-1 execution gated post-Oct 7.
+
+---
+
+## Day 13 (night) — September 20, 2026 — FOOTER DOI+ORCID REVISION, PHASE 1 (publication/catalog only; freeze intact)
+
+Guardian-executed per Leon's approved queue (Sept 19: "yes" to the footer upgrade, "you have the wheel" to run it). Per-page armor footers upgraded to carry each record's own DOI + ORCID (0009-0002-1140-9568), and the prototype disclaimer line **completed** — finding: several prior armor footers clipped mid-disclaimer (K-S/SOT/ISO-XLM ended at "purposes"; ICS at "Not intended"; IP Doctrine at "environm"). Fresh-deposit versioning; prior versions preserved; each record's description carries the disclosed amendment.
+
+- **ICS v2.2** — DOI 10.5281/zenodo.22852037 (supersedes 22847345). 12pp, all stamped + verified.
+- **Jasper 2.0 industry paper v1.2** — DOI 10.5281/zenodo.22852039 (supersedes 22847527). 55pp, all stamped + verified.
+- **DSOS Science Vol II v1.1** — DOI 10.5281/zenodo.22852041 (supersedes 22840772). 23pp, all stamped + verified (tight layout coexists with the volume's running titles).
+- **IP Protection Doctrine v1.1** — DOI 10.5281/zenodo.22852047 (supersedes 22842200). 4pp, all stamped + verified.
+- **DCAI Specification deliberately NOT revised** (guardian judgment, disclosed): the filed spec (10.5281/zenodo.22837417) stays byte-as-filed — the DOI/ORCID trace lives in its record metadata, not in a modified filing document.
+- **Phase 2 queued:** early-trio flagships (Kolmogorov-Shannon Bridge, Sequential Ordinal Targeting, ISO 20022 Banking Bridge-XLM) live in the 27-file Universal Bridge Archive (10.5281/zenodo.22841997, 727 MB incl. two demo videos) — fresh-deposit versioning requires re-uploading all 27 files; the 727 MB source download is pre-staged, patch + upload queued for the next quiet window.
+
+Rationale on record: Zenodo analytics show downloads far exceeding views (65 dl / 8 views on the Jasper archive at check time) — the files circulate directly, so the PDF footer is now the return path: every forwarded copy carries its DOI and the author's ORCID (silent citation funnel). 94 pages verified stamped across the four Phase 1 records via public-API redownload.
+
+**Verdict: OPERATIONAL.** Publication and catalog work only — no configuration, schema, workflow, or system changes. Freeze intact.
