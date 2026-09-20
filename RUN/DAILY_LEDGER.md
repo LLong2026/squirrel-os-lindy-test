@@ -165,3 +165,7 @@ Rationale on record: Zenodo analytics show downloads far exceeding views (65 dl 
 ## Sept 20, 2026 — RESEARCH_LINKS.md master index added (new artifact, additive)
 
 **Action (disclosed):** Created `RESEARCH_LINKS.md` at repo root per Leon's request — the master research-links hub: author identity block (ORCID 0009-0002-1140-9568, affiliation, GitHub/X/site), the 10 flagship canonical DOIs with notes, the concept-record archive link, distribution-surface table (Zenodo, EngrXiv submission #8279, ORCID, GitHub, X, website), citation example, and the verbatim prototype disclaimer. Root README links to it. Forward-only addition; will be appended as new works publish.
+
+## Sept 20, 2026 — FUNDING.yml sponsor-panel update (disclosed, additive)
+
+**Action:** `github: LLong2026` line added to the Lindy repo's `.github/FUNDING.yml` — the GitHub Sponsors profile (github.com/sponsors/LLong2026) is now live, so the sponsor panel points there alongside the Zenodo archive DOI custom link (which stays for DOI-dated sponsorship). Additive change, no removals.
