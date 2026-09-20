@@ -229,3 +229,7 @@ Math/citation audit basis (Sept 19 passes): all six verified CLEAN (SOT, ISO-XLM
 ## Sept 20, 2026 — SharePoint research snapshot uploaded (additive, per Leon's 'yes')
 
 **Action (additive mirror, disclosed):** New SharePoint document library folder 07_Research_Publications on the SQUIRL Communication site — 24 files: MASTER_DOI_ROADMAP.md, RESEARCH_LINKS.md, DAILY_LEDGER.md snapshot, SQUIRL_IP_PROTECTION_DOCTRINE.md, IP PDF, and the paper PDFs mirrored from docs/zenodo-papers/ (incl. preserved versions). README_SNAPSHOT_NOTE.md states the snapshot date and that GitHub/Zenodo remain the canonical, live sources. Additive-only per the SharePoint Manager hard constraints; no permissions touched, nothing deleted. The daily 4pm sync whitelist is NOT extended (workflow changes remain freeze-held; proposal queued: teach the sync to refresh roadmap/links/ledger snapshots).
+
+## Sept 20, 2026 — Weekly Friday SharePoint research snapshot workflow added (per Leon's 'just do it on fridays')
+
+**Action (additive):** New scheduled workflow 'SharePoint Research Snapshot' — every Friday 4:30pm CT, refreshes the 07_Research_Publications SharePoint folder with the current research stack (roadmap, links, ledger snapshot, papers incl. any new publications) and appends a ledger line. Additive-only: replace-in-place on same filenames, never deletes, never touches permissions or other folders, no emails. First run: Friday Sept 25, 2026.
