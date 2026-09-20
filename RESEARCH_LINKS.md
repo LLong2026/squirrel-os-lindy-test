@@ -34,7 +34,7 @@
 | 6 | **SQUIRL IP Protection Doctrine v1.1** | [10.5281/zenodo.22852047](https://doi.org/10.5281/zenodo.22852047) | Controlling IP document: 8+5 receipt-backed portfolio table, licensing tiers, use-rights-only terms. |
 | 7 | **DCAI Specification (as filed)** | [10.5281/zenodo.22837417](https://doi.org/10.5281/zenodo.22837417) | Deterministic Constitutional Autonomous Infrastructure — USPTO provisional 64/157,915, published as prior art, byte-as-filed. |
 | 8 | **Cloaking Protocol Whitepaper v1.1** | [10.5281/zenodo.22841802](https://doi.org/10.5281/zenodo.22841802) | 10 self-citations corrected. |
-| 9 | **DSOS → PQC Lineage Map v1.1** | [10.5281/zenodo.22841934](https://doi.org/10.5281/zenodo.22841934) | 6 TBD citations reframed. |
+| 9 | **DSOS → PQC Lineage Map v1.2 (public-release edition)** | [10.5281/zenodo.22863667](https://doi.org/10.5281/zenodo.22863667) | CANONICAL. Public-release re-stamp: cover CONFIDENTIAL DRAFT → PUBLIC RELEASE, per-page armor footer, © aligned to CC BY-NC-ND 4.0. Prior bundle edition v1.1 preserved at [10.5281/zenodo.22841934](https://doi.org/10.5281/zenodo.22841934). |
 | 10 | **Recursive Self-Improvement in Settlement Operating Systems** | [10.5281/zenodo.21748182](https://doi.org/10.5281/zenodo.21748182) | Formal architecture description. |
 
 **Full research archive (concept record, 64+ records):** [10.5281/zenodo.21613628](https://doi.org/10.5281/zenodo.21613628) — every published record, all versions preserved.
