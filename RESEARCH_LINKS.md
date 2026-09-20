@@ -36,6 +36,7 @@
 | 8 | **Cloaking Protocol Whitepaper v1.1** | [10.5281/zenodo.22841802](https://doi.org/10.5281/zenodo.22841802) | 10 self-citations corrected. |
 | 9 | **DSOS → PQC Lineage Map v1.2 (public-release edition)** | [10.5281/zenodo.22863667](https://doi.org/10.5281/zenodo.22863667) | CANONICAL. Public-release re-stamp: cover CONFIDENTIAL DRAFT → PUBLIC RELEASE, per-page armor footer, © aligned to CC BY-NC-ND 4.0. Prior bundle edition v1.1 preserved at [10.5281/zenodo.22841934](https://doi.org/10.5281/zenodo.22841934). |
 | 10 | **Recursive Self-Improvement in Settlement Operating Systems** | [10.5281/zenodo.21748182](https://doi.org/10.5281/zenodo.21748182) | Formal architecture description. |
+| 11 | **DQCO: Establishing a Formal Discipline within the DSOS Framework** (66pp, Volume I — Cryptographic Discipline, v1.0) | [10.5281/zenodo.22864030](https://doi.org/10.5281/zenodo.22864030) | CANONICAL. Formal PQC-discipline paper: deterministic governance, runtime-validated cryptographic operations, FIPS 203/204/205. Per-page armor footer on all 66 pages; derived from the DQCO foundational record [10.5281/zenodo.21795635](https://doi.org/10.5281/zenodo.21795635); companion to the [PQC Lineage Map v1.2](https://doi.org/10.5281/zenodo.22863667). |
 
 **Full research archive (concept record, 64+ records):** [10.5281/zenodo.21613628](https://doi.org/10.5281/zenodo.21613628) — every published record, all versions preserved.
 
