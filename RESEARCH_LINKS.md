@@ -27,7 +27,7 @@
 |---|---|---|---|
 | 1 | **Aurora Runtime: A Deterministic Execution Model for Manifold-Coherent Distributed Systems** (whitepaper v1.0, 46pp) | [10.5281/zenodo.22852427](https://doi.org/10.5281/zenodo.22852427) | Deterministic execution substrate on the Seed Computing paradigm; also submitted to **EngrXiv (submission #8279, in moderation)**. Per-page armor footer. |
 | 2 | **Universal Bridge Archive v1.2** (27 files, 727MB incl. demo videos) | [10.5281/zenodo.22852641](https://doi.org/10.5281/zenodo.22852641) | The complete ISO20022/URIB research corpus — early-trio flagships re-stamped, 24 files byte-identical. v1.1 preserved at [22841997](https://doi.org/10.5281/zenodo.22841997). |
-| 3 | **Inverse Complexity Scaling (DSOS/CAI) v2.2** | [10.5281/zenodo.22852037](https://doi.org/10.5281/zenodo.22852037) | Rescaled to receipted substrate evidence (LVR-0907); projections relabeled. |
+| 3 | **Inverse Complexity Scaling (DSOS/CAI) v2.3** | [10.5281/zenodo.22853717](https://doi.org/10.5281/zenodo.22853717) | Rescaled to receipted substrate evidence (LVR-0907); Table 2's +28.3× disclosed as aggregate (≈8.9× scale-bound + ≈3.2× overhead reduction). |
 | 4 | **Squirrel OS Ecosystem Industry Technical Paper v1.2** (Jasper 2.0) | [10.5281/zenodo.22852039](https://doi.org/10.5281/zenodo.22852039) | Includes page-2 amendment disclosing AI-fabricated benchmark details; receipt-backed results stand. |
 | 5 | **DSOS Science Volume II v1.1** | [10.5281/zenodo.22852041](https://doi.org/10.5281/zenodo.22852041) | Continuations, Modules 19–28. |
 | 6 | **SQUIRL IP Protection Doctrine v1.1** | [10.5281/zenodo.22852047](https://doi.org/10.5281/zenodo.22852047) | Controlling IP document: 8+5 receipt-backed portfolio table, licensing tiers, use-rights-only terms. |
