@@ -233,3 +233,7 @@ Math/citation audit basis (Sept 19 passes): all six verified CLEAN (SOT, ISO-XLM
 ## Sept 20, 2026 — Weekly Friday SharePoint research snapshot workflow added (per Leon's 'just do it on fridays')
 
 **Action (additive):** New scheduled workflow 'SharePoint Research Snapshot' — every Friday 4:30pm CT, refreshes the 07_Research_Publications SharePoint folder with the current research stack (roadmap, links, ledger snapshot, papers incl. any new publications) and appends a ledger line. Additive-only: replace-in-place on same filenames, never deletes, never touches permissions or other folders, no emails. First run: Friday Sept 25, 2026.
+
+## Sept 20, 2026 — ORCID WORKS IMPORT VERIFIED (Leon executed the BibTeX import)
+
+**VERIFIED via ORCID public read API (pub.orcid.org, unauthenticated):** record 0009-0002-1140-9568 now shows 34 public works. All 14 canonical 2026 flagships landed: DCAI 22837417, Aurora 22852427, Bridge Archive 22852641, ICS v2.3 22853717, Taproot+Ordinal v1.1 22854062, DSOS Vol II 22852041, IP Doctrine 22852047, DQCO 22864030, PQC v1.2 22863667, Cloaking v1.2 22864468, Recursive SI v1.1 22864470, URIB Math Set 22864466, Jasper v1.3 22864522, K-S Bridge v2.0 22864620. Superseded versions correctly excluded. REMAINING: Employment affiliation (SquirlOS Technologies LLC, Founder/Principal Researcher) not yet on the record — employments endpoint returned empty. All 34 works are publicly visible (public API returns public-visibility items only).
