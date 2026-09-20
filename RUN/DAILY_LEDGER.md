@@ -251,3 +251,7 @@ PROGRAMMATIC OSF UPLOAD (guardian-executed, per the standing distribution mandat
 ## Sept 20, 2026 — PUBLIC WIKI LAUNCHED (squirrel-os-lindy-test, 7 pages)
 
 Public-facing wiki initialized on the ledger repo (Leon created the first page; guardian pushed the full content set, commit on wiki master). Pages live and anonymously verified (HTTP 200): Home, Research-Publications (canonical DOI table), Patent-Portfolio (8 patents pending + 5 SBIR tracks, full filing table), Benchmarks-and-Receipts (267×, LVR-0907, zero-FP, honesty notes), Verification-Ladder (Case-C passed, MAV-1/DSA-1 pre-registered), Lindy-Run (append-only doctrine), About-This-Ledger (disclosure rules + contact). All pages carry the verbatim prototype disclaimer. Repo description also corrected this session: 7 → 8 patents pending. Companion wiki for squirrel-os-demo (5 pages staged) pending first-page initialization.
+
+## Sept 20, 2026 — SECOND PUBLIC WIKI LIVE (squirrel-os-demo, 5 pages)
+
+Companion wiki launched on the demo repo (same pattern: Leon initialized, guardian pushed content). Pages live and anonymously verified: Home, Architecture (three layers + bifurcated governance + agent family), Demo-Notes (simulated-vs-real disclosure: demos use simulated customers, substrate/receipts are real), Results-Receipts (267×, LVR-0907, 0 FP), Get-Involved (tiers, sponsors, contact). Both public repos now carry full wikis — 12 pages total, verbatim prototype disclaimer on every page, 8+5 counts verified. Wiki program CLOSED.
