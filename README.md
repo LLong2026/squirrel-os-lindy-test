@@ -32,6 +32,7 @@ If this run is worth something to you, this repo carries a **FUNDING.yml** — G
 - **Company:** [squirlos-technologies.com](https://squirlos-technologies.com)
 - **Contact:** support@squirlos-technologies.com — same-business-day response, 24/7 system monitoring behind it
 - **Research archive:** [doi.org/10.5281/zenodo.21613628](https://doi.org/10.5281/zenodo.21613628) (64 records)
+- **Master research index:** [RESEARCH_LINKS.md](RESEARCH_LINKS.md) — author identity (ORCID), every canonical DOI, and all distribution surfaces (Zenodo, EngrXiv, GitHub, X) on one page
 - **GitHub:** [github.com/LLong2026](https://github.com/LLong2026) · **X:** [@leonlongITC1](https://x.com/leonlongITC1)
 
 **7 patents pending + 5 SBIR tracks.**
