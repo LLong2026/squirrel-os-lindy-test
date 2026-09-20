@@ -4,6 +4,7 @@ Current, verified versions of the core research papers and Universal Bridge tech
 
 | File | Zenodo Record | DOI | Pages | Status |
 |---|---|---|---|---|
+| Aurora_Runtime_Whitepaper_v1.0.pdf | 22852427 | 10.5281/zenodo.22852427 | 46 | Aurora Runtime v1.0 (Sept 20, 2026) — deterministic execution model for manifold-coherent distributed systems; per-page DOI+ORCID armor footer + prototype disclaimer on publication. |
 | Cloaking_Protocol_Whitepaper.pdf | 22841802 | 10.5281/zenodo.22841802 | 31 | Cloaking Protocol v1.1 — 10 self-citations corrected |
 | DSOS_Science_Volume_II_Continuations_Modules_19-28.pdf | 22852041 | 10.5281/zenodo.22852041 | 23 | DSOS Science Vol II v1.1 — footer DOI+ORCID revision (Sept 20, 2026). Supersedes 10.5281/zenodo.22840772. |
 | DSOS_to_PQC_Lineage_Map_Leon_Calvin_Long_II.pdf | 22841934 | 10.5281/zenodo.22841934 | 40 | Lineage Map v1.1 — 6 TBD citations reframed |
