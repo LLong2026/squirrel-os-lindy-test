@@ -198,3 +198,14 @@ Rationale on record: Zenodo analytics show downloads far exceeding views (65 dl 
 ## Sept 20, 2026 — Research index updated: OSF mirrors + EngrXiv #8286 indexed (disclosed maintenance)
 
 **Action (disclosed, open-book):** RESEARCH_LINKS.md updated to reflect today's full distribution stack — the three OSF Preprints/SocArXiv submissions (DQCO a63s5_v1, Aurora Runtime rkh59_v1, PQC Lineage Map xpnzb_v1, all pending moderation) and EngrXiv submission #8286 (PQC Lineage Map, Production stage, in moderator queue alongside #8279 Aurora). Zenodo remains canonical for every work; OSF/EngrXiv are discovery mirrors, marked in moderation. Status verified via APIs at time of commit: all five pending items unchanged (EngrXiv #8279 + #8286 stage 5/queued; OSF ×3 reviews_state=pending). Public URL anon-verified HTTP 200 after push.
+
+## Sept 20, 2026 — OSF batch: 6 audited papers submitted; 3 armored editions published to Zenodo (disclosed)
+
+**Action (disclosed, open-book, per Leon's '6 clean ones' go):** Six accuracy-audited papers submitted to OSF Preprints (SocArXiv, all pending moderation): SOT (4jc37_v1), ISO 20022 Banking Bridge-XLM (74wsc_v1), DSOS Science Vol II v1.1 (edbx4_v1), Universal Bridge Math Set v1.1 (98fnj_v1), Cloaking Protocol v1.2 (94m6d_v1), Recursive Self-Improvement in Settlement OS v1.1 (e47xa_v1).
+
+**ARMOR RE-STAMP PASS (3 papers):** The Universal Bridge Math Set, Cloaking Protocol, and Recursive Self-Improvement papers carried no per-page armor, disclaimer, or ORCID — they received the standard re-stamp before public distribution: per-page DOI+ORCID+complete verbatim prototype disclaimer footers, verified 99/99 pages total. New dedicated canonical Zenodo records published (fresh-deposit pattern, prior editions preserved and accessible under append-only doctrine):
+- Universal Bridge Math Set v1.1 → 10.5281/zenodo.22864466 (prior: archive 22852641, preserved)
+- Cloaking Protocol v1.2 → 10.5281/zenodo.22864468 (prior: citation-fixed v1.1 in 22841802/22841832/21796594, preserved)
+- Recursive Self-Improvement v1.1 → 10.5281/zenodo.22864470 (prior: 21748182, preserved)
+
+Math/citation audit basis (Sept 19 passes): all six verified CLEAN (SOT, ISO-XLM, URIB Math Set, DSOS Vol II, Cloaking, Recursive SI — no fabricated measurements, real citations, honest scope statements). BIP-341 tagged-hashing advisory for the URIB Math Set Taproot constructions included in the OSF description. The amended Jasper 2.0 v1.2 and ICS v2.2 papers remain HELD for Leon's separate go (disclosed-amendment category); K-S Bridge, Taproot+Ordinal spec, and DCAI/IP doctrine papers remain HELD (entropy-floor scoping note / unverified detail pass / patent-venue reasons).
