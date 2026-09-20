@@ -1,6 +1,6 @@
 # SQUIRL OS Research Links — Master Index
 
-**One page, every canonical record.** Author identity, the full DOI portfolio (current live versions), and every distribution surface. Maintained append-only per the Lindy open-book doctrine: superseded versions stay accessible via Zenodo version history, changes are disclosed in the transparency ledger.
+**One page, every canonical record.** For the pure DOI-to-site mapping, see [MASTER_DOI_ROADMAP.md](MASTER_DOI_ROADMAP.md). Author identity, the full DOI portfolio (current live versions), and every distribution surface. Maintained append-only per the Lindy open-book doctrine: superseded versions stay accessible via Zenodo version history, changes are disclosed in the transparency ledger.
 
 > This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.
 
