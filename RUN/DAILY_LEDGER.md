@@ -255,3 +255,7 @@ Public-facing wiki initialized on the ledger repo (Leon created the first page; 
 ## Sept 20, 2026 — SECOND PUBLIC WIKI LIVE (squirrel-os-demo, 5 pages)
 
 Companion wiki launched on the demo repo (same pattern: Leon initialized, guardian pushed content). Pages live and anonymously verified: Home, Architecture (three layers + bifurcated governance + agent family), Demo-Notes (simulated-vs-real disclosure: demos use simulated customers, substrate/receipts are real), Results-Receipts (267×, LVR-0907, 0 FP), Get-Involved (tiers, sponsors, contact). Both public repos now carry full wikis — 12 pages total, verbatim prototype disclaimer on every page, 8+5 counts verified. Wiki program CLOSED.
+
+## Sept 20, 2026 — OFFICIAL COMPANY TAGLINE ADOPTED + DEPLOYED (partial)
+
+Leon adopted the official one-liner: "SQUIRL OS Technologies LLC — A Deterministic Systems Research Company developing reproducible runtimes, constitutional execution models, and post-quantum remediation substrates." DEPLOYED (guardian): squirrel-os-demo wiki Home + Get-Involved pages (pushed + verified). PENDING LEON PASTE (no API scope): GitHub profile bio (token lacks user scope — Settings → Profile → Bio), ORCID employment role blurb (no ORCID token in vault), Wix site hero/about. Honest-tagline note: all three pillars map to receipted assets (Aurora/DCAI runtimes; Constitution + DCAI filing; DQCO + approved PQC algorithms) — no overclaims. Tagline text stored in the standard email signature block going forward.
