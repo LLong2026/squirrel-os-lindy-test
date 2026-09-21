@@ -27,6 +27,7 @@
 | 13 | Cloaking Protocol Whitepaper v1.2, armored | [10.5281/zenodo.22864468](https://doi.org/10.5281/zenodo.22864468) | [94m6d_v1](https://osf.io/preprints/socarxiv/94m6d_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Cloaking_Protocol_Whitepaper.pdf` (v1.1 mirror; v1.2 = Zenodo/OSF) |
 | 14 | Recursive Self-Improvement in Settlement Operating Systems v1.1, armored | [10.5281/zenodo.22864470](https://doi.org/10.5281/zenodo.22864470) | [e47xa_v1](https://osf.io/preprints/socarxiv/e47xa_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Recursive_Self-Improvement_in_Settlement_Operating_Systems_...pdf` (original mirror; v1.1 = Zenodo/OSF) |
 | 15 | Manifold as Deterministic Runtime v1.1 (27pp — formal DG ↔ execution-semantics correspondence, companion to Aurora) | [10.5281/zenodo.22881459](https://doi.org/10.5281/zenodo.22881459) | — (never submitted; OSF off-stack) | — (TechRxiv queue) | `docs/zenodo-papers/Manifold_as_Deterministic_Runtime_v1.1.pdf` |
+| 16 | Antimatter Confinement via Aegis Topological Resonance v1.1 (4pp, honesty-screen edition of the April draft + PRISM companion + 2 demo videos) | [10.5281/zenodo.22881801](https://doi.org/10.5281/zenodo.22881801) | — | — (TechRxiv optional; conceptual) | `docs/zenodo-papers/Antimatter_Confinement_Aegis_v1.1.pdf` (v1.0 preserved at 10.5281/zenodo.19504289, 89 dls) |
 
 ## 2. IP / Patent Records
 
