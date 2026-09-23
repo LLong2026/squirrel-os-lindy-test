@@ -23,8 +23,12 @@ Current, verified versions of the core research papers and Universal Bridge tech
 | Universal_Bridge_Math_Set_–_Technical_Reference.pdf | 22841997 | 10.5281/zenodo.22841997 | 31 | v1.1 — Universal Bridge set; early trio armored |
 | XRP_-_XLM_Bridge_-_Seed‑Parity_Cross‑Chain_Identity_and_Reconstruction_System.pdf | 22841997 | 10.5281/zenodo.22841997 | 2 | v1.1 — Universal Bridge set; early trio armored |
 
+| Manifold_Collapse_Conceptual_Framework_v1.1.pdf | 22921230 | 10.5281/zenodo.22921230 | 6 | **Conceptual corrected public edition** — 32-byte identity plus versioned shared substrate, not seed-only restoration; unverified draft timings/seed/case study omitted. AI editing disclosed; source Markdown accompanies PDF. |
+
 **Excluded deliberately:** filed patent documents stay byte-as-filed — they live only in `docs/patents/` and on Zenodo, never in this sync. A math-verification pass on these papers is in progress; findings will be disclosed in the ledger per open-book doctrine.
 
 ## AI Use and Review Disclosure
 
 These works were produced with AI assistance and have been strenuously human-reviewed and corrected. Quantitative claims are either verified against the public receipted record (incident ledgers, USPTO filing receipts, benchmark runs) or explicitly labeled as projections. All corrections and amendments are disclosed openly via Zenodo version history and the public transparency ledger. The work stands public and honest, open-book.
+
+**September 23 exception to the general review note:** The Manifold Collapse entry above is an AI-assisted conceptual revision and is not claimed to have undergone an independent empirical or author technical review. Its original 36-page draft is not deposited as evidence. See the paper’s status and provenance note.

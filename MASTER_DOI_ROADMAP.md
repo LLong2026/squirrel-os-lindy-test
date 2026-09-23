@@ -82,3 +82,10 @@
 - **EngrXiv queue:** Aurora #8279, PQC Lineage Map #8286 — both in moderator review.
 - **Held from distribution (accuracy screen):** K-S Bridge v1.0 manifesto (superseded by v2.0 Primer), Taproot+Ordinal spec v1.1 (pending detail pass), Kolmogorov Manifold Copilot draft (rejected, never published).
 - **Update protocol:** every new publication lands on Zenodo first (DOI of record), then OSF/EngrXiv mirrors, then this roadmap and [RESEARCH_LINKS.md](RESEARCH_LINKS.md) get the new row, then a ledger entry. Append-only.
+
+
+## September 23, 2026 — Additive Research Record: Manifold Collapse
+
+- **Canonical DOI:** [10.5281/zenodo.22921230](https://doi.org/10.5281/zenodo.22921230) (v1.1 conceptual corrected public edition; CC BY 4.0).
+- **GitHub mirror:** `docs/zenodo-papers/Manifold_Collapse_Conceptual_Framework_v1.1.pdf` and `.md`. **SharePoint copy:** `07_Research_Publications/` (both files, read-back verified).
+- **Scope correction:** Identity plus authenticated versioned substrate; no claim of seed-only arbitrary state reconstruction. The original 36-page draft’s unsupported proofs, timings, sample hex seed and case-study figures are not presented as verified outcomes. Publication does not certify patent coverage of this embodiment.

@@ -73,3 +73,8 @@ Cite the Zenodo DOI (canonical). Example:
 CC-BY-4.0 unless noted per record. AI use and review disclosure: these works were produced with AI assistance and strenuously human-reviewed and corrected; quantitative claims are either receipt-verified or explicitly labeled as projections; all corrections are disclosed via Zenodo version history and the public transparency ledger (`RUN/DAILY_LEDGER.md`).
 
 *Index created Sept 20, 2026. Maintained forward-only: new works appended, supersessions noted, nothing silently rewritten.*
+
+
+## September 23, 2026 — Manifold Collapse (conceptual bridge)
+
+**Manifold Collapse: A 32-Byte Identity for a Versioned Deterministic Runtime** — [Zenodo DOI 10.5281/zenodo.22921230](https://doi.org/10.5281/zenodo.22921230). Corrected 6-page conceptual edition, PDF + Markdown in [`docs/zenodo-papers/`](docs/zenodo-papers/), mirrored in SharePoint `07_Research_Publications`. Connects the originating 32-byte pointer concept to the Deterministic Runtime Recipe Book and proposes receipt-backed falsifiers. **Not a verified reconstruction or performance result.** AI-assisted editing and the difference from the unverified earlier draft are disclosed in-paper.
