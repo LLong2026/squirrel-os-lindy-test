@@ -12,7 +12,6 @@
 
 | # | Work (current version) | Zenodo DOI | OSF Preprints | EngrXiv | File in this repo |
 |---|---|---|---|---|---|
-| 1 | Aurora Runtime Whitepaper v1.1 (46pp — terminology modernization: Migration Engine / Genesis Seed) | [10.5281/zenodo.22878201](https://doi.org/10.5281/zenodo.22878201) | [rkh59_v1](https://osf.io/preprints/socarxiv/rkh59_v1/) (REJECTED — SocArXiv scope) | Submission **#8279** (in moderation, v1.0 text) | `docs/zenodo-papers/Aurora_Runtime_Whitepaper_v1.1.pdf` (v1.0 preserved at 10.5281/zenodo.22852427) |
 | 2 | Universal Bridge Archive v1.2 (27 files, 727MB) | [10.5281/zenodo.22852641](https://doi.org/10.5281/zenodo.22852641) | — (archive bundle; individual flagships mirrored separately) | — | individual files in `docs/zenodo-papers/` |
 | 3 | Taproot + Ordinal Commitment Spec v1.1 (64pp, corrected canonical) | [10.5281/zenodo.22854062](https://doi.org/10.5281/zenodo.22854062) | — (held from OSF pending detail pass) | — | v1.0.0-draft preserved in archive mirror |
 | 4 | Inverse Complexity Scaling (DSOS/CAI) v2.3 | [10.5281/zenodo.22853717](https://doi.org/10.5281/zenodo.22853717) | [fw673_v1](https://osf.io/preprints/socarxiv/fw673_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Inverse_Complexity_Scaling_DSOS_CAI_v2_3.pdf` |
@@ -20,21 +19,23 @@
 | 6 | DSOS Science Volume II v1.1 (Modules 19–28) | [10.5281/zenodo.22852041](https://doi.org/10.5281/zenodo.22852041) | [edbx4_v1](https://osf.io/preprints/socarxiv/edbx4_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/DSOS_Science_Volume_II_Continuations_Modules_19-28.pdf` |
 | 7 | DQCO: Formal Cryptographic Discipline v1.0 (66pp, Vol I) | [10.5281/zenodo.22864030](https://doi.org/10.5281/zenodo.22864030) | [a63s5_v1](https://osf.io/preprints/socarxiv/a63s5_v1/) (REJECTED (SocArXiv scope)) | — | — (Zenodo/OSF only; canonical on record) |
 | 8 | DSOS → PQC Lineage Map v1.2, public-release | [10.5281/zenodo.22863667](https://doi.org/10.5281/zenodo.22863667) | [xpnzb_v1](https://osf.io/preprints/socarxiv/xpnzb_v1/) (REJECTED (SocArXiv scope)) | Submission **#8286** (REJECTED (SocArXiv scope)) | `docs/zenodo-papers/DSOS_to_PQC_Lineage_Map_Leon_Calvin_Long_II.pdf` (v1.1 mirror; v1.2 = Zenodo/OSF/EngrXiv) |
-| 9 | Kolmogorov–Shannon Bridge v2.0 Primer (supersedes v1.0 manifesto) | [10.5281/zenodo.22864620](https://doi.org/10.5281/zenodo.22864620) | [3gv4k_v1](https://osf.io/preprints/socarxiv/3gv4k_v1/) (REJECTED (SocArXiv scope)) | — | v1.0 preserved in archive mirror |
 | 10 | Universal Bridge Math Set v1.1, armored (URIB mathematical foundations) | [10.5281/zenodo.22864466](https://doi.org/10.5281/zenodo.22864466) | [98fnj_v1](https://osf.io/preprints/socarxiv/98fnj_v1/) (REJECTED (SocArXiv scope)) | — | v1.0 preserved in archive mirror |
 | 11 | Sequential Ordinal Targeting (SOT) v1.0 | in [10.5281/zenodo.22852641](https://doi.org/10.5281/zenodo.22852641) (archive) | [4jc37_v1](https://osf.io/preprints/socarxiv/4jc37_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Sequential_Ordinal_Targeting.pdf` |
 | 12 | ISO 20022 Banking Bridge – XLM v1.0 | in [10.5281/zenodo.22852641](https://doi.org/10.5281/zenodo.22852641) (archive) | [74wsc_v1](https://osf.io/preprints/socarxiv/74wsc_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/ISO_20022_Banking_Bridge_-XLM.pdf` |
-| 13 | Cloaking Protocol Whitepaper v1.2, armored | [10.5281/zenodo.22864468](https://doi.org/10.5281/zenodo.22864468) | [94m6d_v1](https://osf.io/preprints/socarxiv/94m6d_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Cloaking_Protocol_Whitepaper.pdf` (v1.1 mirror; v1.2 = Zenodo/OSF) |
 | 14 | Recursive Self-Improvement in Settlement Operating Systems v1.1, armored | [10.5281/zenodo.22864470](https://doi.org/10.5281/zenodo.22864470) | [e47xa_v1](https://osf.io/preprints/socarxiv/e47xa_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Recursive_Self-Improvement_in_Settlement_Operating_Systems_...pdf` (original mirror; v1.1 = Zenodo/OSF) |
-| 15 | Manifold as Deterministic Runtime v1.1 (27pp — formal DG ↔ execution-semantics correspondence, companion to Aurora) | [10.5281/zenodo.22881459](https://doi.org/10.5281/zenodo.22881459) | — (never submitted; OSF off-stack) | — (TechRxiv queue) | `docs/zenodo-papers/Manifold_as_Deterministic_Runtime_v1.1.pdf` |
 
 ## 1b. Independent Research (NOT part of SQUIRL OS)
 
-*Pulled from the SQUIRL OS research stack Sept 24, 2026 (Leon's directive: SQUIRL-facing surfaces carry SQUIRL OS research only). Records preserved on Zenodo per the append-only doctrine; not mirrored to SQUIRL-facing surfaces.*
+*Pulled from the SQUIRL OS research stack Sept 24, 2026 (Leon's directive: SQUIRL-facing surfaces carry only this project's system and patents). Reserved for future SquirlOS Technologies divisions. Records preserved on Zenodo and in the repo archive per the append-only doctrine; never mirrored to SQUIRL-facing surfaces.*
 
-| Work | Zenodo DOI | Note |
-|---|---|---|
-| Antimatter Confinement via Aegis Topological Resonance v1.1 | [10.5281/zenodo.22881801](https://doi.org/10.5281/zenodo.22881801) | Physics thought-experiment — independent of the SQUIRL OS project |
+| # | Work | Zenodo DOI | Note |
+|---|---|---|---|
+| 1 | Aurora Runtime Whitepaper v1.1 (deterministic execution model, Seed Computing paradigm) | [10.5281/zenodo.22878201](https://doi.org/10.5281/zenodo.22878201) | v1.0 preserved at [10.5281/zenodo.22852427](https://doi.org/10.5281/zenodo.22852427) |
+| 9 | Kolmogorov–Shannon Bridge v2.0 Primer (information-theoretic math) | [10.5281/zenodo.22864620](https://doi.org/10.5281/zenodo.22864620) | v1.0 preserved in the Universal Bridge Archive |
+| 13 | Cloaking Protocol Whitepaper v1.2 (state concealment + deterministic recovery, Seed Computing paradigm) | [10.5281/zenodo.22864468](https://doi.org/10.5281/zenodo.22864468) | v1.1 preserved at [10.5281/zenodo.22841802](https://doi.org/10.5281/zenodo.22841802) |
+| 15 | Manifold as Deterministic Runtime v1.1 (differential geometry ↔ execution semantics) | [10.5281/zenodo.22881459](https://doi.org/10.5281/zenodo.22881459) | Companion to Aurora Runtime |
+| 16 | Antimatter Confinement via Aegis Topological Resonance v1.1 (physics thought-experiment) | [10.5281/zenodo.22881801](https://doi.org/10.5281/zenodo.22881801) | v1.0 preserved at [10.5281/zenodo.19504289](https://doi.org/10.5281/zenodo.19504289) |
+| 17 | Manifold Collapse: A 32-Byte Identity for a Versioned Deterministic Runtime (conceptual bridge) | [10.5281/zenodo.22921230](https://doi.org/10.5281/zenodo.22921230) | Conceptual edition; connects to the Deterministic Runtime Recipe Book |
 
 ## 2. IP / Patent Records
 
