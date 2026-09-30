@@ -36,6 +36,7 @@
 | 15 | Manifold as Deterministic Runtime v1.1 (differential geometry ↔ execution semantics) | [10.5281/zenodo.22881459](https://doi.org/10.5281/zenodo.22881459) | Companion to Aurora Runtime |
 | 16 | Antimatter Confinement via Aegis Topological Resonance v1.1 (physics thought-experiment) | [10.5281/zenodo.22881801](https://doi.org/10.5281/zenodo.22881801) | v1.0 preserved at [10.5281/zenodo.19504289](https://doi.org/10.5281/zenodo.19504289) |
 | 17 | Manifold Collapse: A 32-Byte Identity for a Versioned Deterministic Runtime (conceptual bridge) | [10.5281/zenodo.22921230](https://doi.org/10.5281/zenodo.22921230) | Conceptual edition; connects to the Deterministic Runtime Recipe Book |
+| 18 | Algebraic Collapse in Nondeterministic LLMs via Deterministic Manifold Constraint — Amendment Edition v1.1 (theory companion to 64/119,191; caging theorem) | [10.5281/zenodo.23067855](https://doi.org/10.5281/zenodo.23067855) |
 
 ## 2. IP / Patent Records
 
@@ -97,3 +98,10 @@
 - **Canonical DOI:** [10.5281/zenodo.22921230](https://doi.org/10.5281/zenodo.22921230) (v1.1 conceptual corrected public edition; CC BY 4.0).
 - **GitHub mirror:** `docs/zenodo-papers/Manifold_Collapse_Conceptual_Framework_v1.1.pdf` and `.md`. **SharePoint copy:** `07_Research_Publications/` (both files, read-back verified).
 - **Scope correction:** Identity plus authenticated versioned substrate; no claim of seed-only arbitrary state reconstruction. The original 36-page draft’s unsupported proofs, timings, sample hex seed and case-study figures are not presented as verified outcomes. Publication does not certify patent coverage of this embodiment.
+
+
+## September 30, 2026 — Additive Research Record: Algebraic Collapse (Amendment Edition v1.1)
+
+- **Canonical DOI:** [10.5281/zenodo.23067855](https://doi.org/10.5281/zenodo.23067855) (Amendment Edition v1.1; CC BY-NC-ND 4.0).
+- **GitHub mirror:** `docs/research/AlgebraicCollapse_NondeterministicLLMs_v1.1_AMENDED_DOI.pdf`.
+- **Scope note:** v1.0 (AI-assisted draft) carried six defects around the central theorem, caught in the Sept 30 author-directed math audit and corrected via a disclosed 4-page amendment (Theorem 1′ caging theorem, Corollary 2′ metric-entropy bound, D1–D6 defect log). The retracted claims (finite generation, Dehn-decidability, unconditional containment) are not presented as verified results; applied claims are conditional pending the scheduled trials. v1.0 preserved in Zenodo version history per the append-only doctrine.
