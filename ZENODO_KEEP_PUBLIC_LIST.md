@@ -21,3 +21,17 @@ Criterion (Leon, Sept 21, 2026): public records = accurate papers pertaining to 
 Prior restriction passes: Sept 19, 2026 (9 records: 21501156, 21502757, 21503385, 21386823, 21387634, 20483110, 21503046, 19448981, 19464970).
 
 Changes to this list are append-only: new restrictions or re-openings get a new dated section + ledger entry, never silent edits.
+
+## Oct 2, 2026 — Project-Clean Lockdown Pass (Leon-approved table)
+
+**Restrictions (3 new):** 22847324 (ICS v2.1 stray deposit, zero files), 22847345 (ICS v2.1 stray duplicate; canonical v2.2 = 22852037), 19411642 (ISO20022 Banking Bridge, Apr 4 unaudited precursor, superseded by URIB line 21123611).
+
+**Sept pass straggler repairs (5):** 21386823, 21387634, 21501156, 21502757, 21503046 — restricted drafts from Sept 19/21 had never published; published versions were still open. All republished restricted and verified.
+
+**Final state:** 92 records — 69 open / 23 restricted. Metadata armor sweep on all open records: clean (no "7 patents", no "15 patents", no live $250K settlement language).
+
+**Judgment calls kept open (per criteria-based rule, Leon-approved):** 19504289 (cited by canon 22881801 + patent-referenced), all patent-anchored pre-July records (THREADZERO 64/081,490, Univ File Reconstruction 64/081,911, Monetary Substrate 64/082,606, RL Token Minting 19/693,343, Master Patent Archive), version trails per open-book doctrine.
+
+**Lindy loop:** all 69 open records now carry the squirrel-os-lindy-test related identifier (22837417, 23105113 patched this pass). Every open record points back to this test folder.
+
+**Community:** squirlos-technologies holds 64 records (46 open + 18 restricted). Restricted-record removal is not exposed via the Zenodo REST API (draft metadata PUT is ignored for removal) — 18 removals queued as a manual web-UI curation step. New community "DCAI — Deterministic Caged AI" created Oct 2 (zenodo.org/communities/dcai); roster pending Leon's single-look approval.
