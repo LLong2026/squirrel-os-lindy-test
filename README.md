@@ -17,6 +17,14 @@ Every update is a dated git commit. The ledger keeps itself.
 
 If a system survives, it was probably built right. 30 days of continuous, self-supervised operation is the credibility benchmark that matters — not a demo, not a benchmark score. A ledger that shows what actually happened, including what went wrong and how it healed, is worth more than any polished pitch.
 
+## The Cage Thesis
+
+> **"The irony is beautiful — the tools everyone trusts blindly become the proof that nothing should be trusted blindly."**
+
+*Design principle for the post-Lindy LLM-cage program, October 2026.*
+
+Third-party LLMs — Copilot, Grok, all of them — drift and fabricate on the regular. SQUIRL OS's answer is not a better model. It's a deterministic cage: every output, ours or anyone's, validated against invariant contracts before anyone sees it. The same governance layer that held this runtime frozen for 30 unedited days is what makes it safe to run *any* LLM inside the boundary. Caged third-party models are queued for the post-Lindy program — and every hallucination they throw at the gate is free adversarial test data for the validation layer.
+
 ## Dual Mesh Benchmark
 
 - **267× speedup** (800ms → 3ms anomaly lookup)
