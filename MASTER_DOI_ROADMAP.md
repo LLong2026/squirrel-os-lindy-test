@@ -4,7 +4,7 @@
 
 > This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.
 
-**Last updated:** September 24, 2026 · **Author:** Leon Calvin Long, II · **ORCID:** [0009-0002-1140-9568](https://orcid.org/0009-0002-1140-9568)
+**Last updated:** October 4, 2026 · **Author:** Leon Calvin Long, II · **ORCID:** [0009-0002-1140-9568](https://orcid.org/0009-0002-1140-9568)
 
 ---
 
@@ -23,6 +23,8 @@
 | 11 | Sequential Ordinal Targeting (SOT) v1.0 | in [10.5281/zenodo.22852641](https://doi.org/10.5281/zenodo.22852641) (archive) | [4jc37_v1](https://osf.io/preprints/socarxiv/4jc37_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Sequential_Ordinal_Targeting.pdf` |
 | 12 | ISO 20022 Banking Bridge – XLM v1.0 | in [10.5281/zenodo.22852641](https://doi.org/10.5281/zenodo.22852641) (archive) | [74wsc_v1](https://osf.io/preprints/socarxiv/74wsc_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/ISO_20022_Banking_Bridge_-XLM.pdf` |
 | 14 | Recursive Self-Improvement in Settlement Operating Systems v1.1, armored | [10.5281/zenodo.22864470](https://doi.org/10.5281/zenodo.22864470) | [e47xa_v1](https://osf.io/preprints/socarxiv/e47xa_v1/) (REJECTED (SocArXiv scope)) | — | `docs/zenodo-papers/Recursive_Self-Improvement_in_Settlement_Operating_Systems_...pdf` (original mirror; v1.1 = Zenodo/OSF) |
+
+| 19 | Governed Manifold Specification v1.1, Amendment Edition (formal governance math — safe-control theory for AI governance) | [10.5281/zenodo.23132046](https://doi.org/10.5281/zenodo.23132046) | — (Zenodo canonical; DCAI community) | — | `docs/research/GovernedManifoldSpecification_v1.1_AmendmentEdition.pdf` |
 
 ## 1b. Independent Research (NOT part of SQUIRL OS)
 
