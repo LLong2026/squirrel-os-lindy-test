@@ -287,3 +287,154 @@ For KYC, IP/session, and payments, use consistent tags:
 ---
 
 *End of verbatim excerpt. Preserved forward-only per the append-only doctrine. The original conversation contained illustrative placeholders, not production data. This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.*
+
+---
+
+# Continuation of the Same Conversation — Base44-Ready DID + Arweave Platform (Drag-and-Drop Capsule)
+
+*Additive preservation, Oct 4, 2026 (same Dec 5, 2025 conversation, second half). Original excerpt above unaltered. This half contains the Base44-ready 4-capsule system with implementation manifests.*
+
+## 1. Capsule Layout (4-Capsule System)
+
+**Capsule 1 — Identity Core** — DID creation, resolution, key rotation, service endpoints.
+Exports: `/did`, `/did/{did}`, `/did/{did}/rotate`, `/did/{did}/services`
+Internal services: DID registry, DID document generator, Key rotation engine, Signature suite (Ed25519 / Secp256k1)
+
+**Capsule 2 — Credentials Engine** — Issue, verify, revoke Verifiable Credentials.
+Exports: `/vc/issue`, `/vc/verify`, `/vc/revoke`, `/vc/status/{vcId}`
+Internal services: VC issuer, VC verifier, Revocation list manager, Schema registry
+
+**Capsule 3 — Arweave Pipeline** — Permanent storage for proofs, receipts, manifests, policy versions.
+Exports: `/arweave/upload`, `/arweave/{txid}`, `/arweave/bundle`
+Internal services: Bundler, Deduplication layer, Compression layer, Tagging policy engine, Gateway proxy
+
+**Capsule 4 — Unified Audit Layer** — One-call verification.
+Exports: `/audit/verify`, `/audit/events`, `/audit/payment/{paymentId}`
+Internal services: DID resolver, VC verifier, Arweave integrity checker, Payment metadata inspector, Compliance rules engine
+
+## 2. Demo Flow
+
+1. User onboards → DID created instantly → DID doc stored in Identity capsule → DID metadata anchored to Arweave (hash only).
+2. KYC completed → VC issued (KYCVerified) → VC receipt + policy version anchored to Arweave → VC ID returned to client.
+3. Payment metadata includes: DID, VC ID, Arweave TXIDs for evidence.
+4. Counterparty or regulator calls `/audit/verify` → response includes DID document, VC validity + revocation status, Arweave artifacts + hash integrity, policy version lineage, key rotation history.
+
+> Instant, portable, immutable compliance.
+
+## 3. Base44 Capsule Manifests
+
+**Identity Capsule Manifest**
+
+```yaml
+capsule:
+  name: identity-core
+  version: 1.0.0
+services:
+  - did-registry
+  - did-resolver
+  - key-rotation
+ingress:
+  - /did
+  - /did/{did}
+  - /did/{did}/rotate
+outputs:
+  - didDocument
+  - rotationReceipt
+events:
+  - did.created
+  - did.rotated
+```
+
+**Credentials Capsule Manifest**
+
+```yaml
+capsule:
+  name: credentials-engine
+  version: 1.0.0
+services:
+  - vc-issuer
+  - vc-verifier
+  - vc-revocation
+  - schema-registry
+ingress:
+  - /vc/issue
+  - /vc/verify
+  - /vc/revoke
+  - /vc/status/{vcId}
+events:
+  - vc.issued
+  - vc.revoked
+```
+
+**Arweave Capsule Manifest**
+
+```yaml
+capsule:
+  name: arweave-pipeline
+  version: 1.0.0
+services:
+  - bundler
+  - uploader
+  - gateway
+  - dedup
+  - compressor
+ingress:
+  - /arweave/upload
+  - /arweave/{txid}
+  - /arweave/bundle
+outputs:
+  - arweaveTxid
+events:
+  - arweave.uploaded
+```
+
+**Audit Capsule Manifest**
+
+```yaml
+capsule:
+  name: audit-layer
+  version: 1.0.0
+services:
+  - integrity-checker
+  - unified-verifier
+  - compliance-engine
+ingress:
+  - /audit/verify
+  - /audit/events
+  - /audit/payment/{paymentId}
+events:
+  - audit.verified
+  - audit.failed
+```
+
+## 4. JSON-LD Credential Template (KYC Verified VC)
+
+```json
+{
+  "@context": ["https://www.w3.org/2018/credentials/v1"],
+  "type": ["VerifiableCredential", "KYCVerified"],
+  "issuer": "did:web:yourdomain",
+  "credentialSubject": {
+    "id": "did:key:xyz",
+    "kycLevel": "standard"
+  },
+  "evidence": [{
+    "type": "ArweaveReceipt",
+    "txid": "ARWEAVE_TXID",
+    "hash": "SHA256_HASH"
+  }],
+  "proof": {"...": "..."}
+}
+```
+
+## 5. Arweave Tagging Standard
+
+Every artifact uploaded must include: Service (identity / credentials / policy / audit), Purpose (did-doc / vc-receipt / key-rotation / payment-proof), Version (semver), DID (subject DID), VCID (credential ID), Hash (sha256), Capsule (base44-service-name), Env (dev / staging / prod) — ensuring discoverability, auditability, and lineage.
+
+## 6. Lineage note for this half (added Oct 4, 2026)
+
+- The capsule manifests (services / ingress / outputs / events) are the direct ancestor of the platform's adapter-contract and capsule-deployment patterns: self-contained, versioned modules with declared ingress and emitted events.
+- "One-call verification" (/audit/verify) prefigures the unified compliance-verdict endpoint that settlement gating depends on.
+- The XRP-comparison framing ("the identity + permanence layer XRP wishes it had") marks the earliest appearance of the XRP++ positioning later used in the ISO 20022 bridge program.
+
+*End of continuation. Prototype disclaimer applies: this software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments.*
