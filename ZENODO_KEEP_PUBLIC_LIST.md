@@ -35,3 +35,7 @@ Changes to this list are append-only: new restrictions or re-openings get a new 
 **Lindy loop:** all 69 open records now carry the squirrel-os-lindy-test related identifier (22837417, 23105113 patched this pass). Every open record points back to this test folder.
 
 **Community:** squirlos-technologies holds 64 records (46 open + 18 restricted). Restricted-record removal is not exposed via the Zenodo REST API (draft metadata PUT is ignored for removal) — 18 removals queued as a manual web-UI curation step. New community "DCAI — Deterministic Caged AI" created Oct 2 (zenodo.org/communities/dcai); roster pending Leon's single-look approval.
+
+## Oct 4, 2026 — Deep Audit Update (Gemini-lineage sweep)
+Restricted this pass: 20113836, 19490801, 19644692, 19515494, 19504289, 20466514, 19411735 (full evidence: RUN/zenodo_deep_audit_2026-10-04.md).
+Confirmed keep-open: 20534377, 20548615, 20586523, 19393474, 19448382.
