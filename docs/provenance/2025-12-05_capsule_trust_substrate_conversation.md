@@ -438,3 +438,9 @@ Every artifact uploaded must include: Service (identity / credentials / policy /
 - The XRP-comparison framing ("the identity + permanence layer XRP wishes it had") marks the earliest appearance of the XRP++ positioning later used in the ISO 20022 bridge program.
 
 *End of continuation. Prototype disclaimer applies: this software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments.*
+
+---
+
+## Source Confirmation (added Oct 4, 2026)
+
+The author confirmed on Oct 4, 2026 that the assistant on this conversation was **GitHub Copilot**. This adds a third lineage data point to the provenance map: the geometric manifold thread originated with Copilot (RDC-1 Phase 1 discovery sessions), the Genesis Equation / reconstruction thread originated with Gemini, and the capsule/envelope trust-substrate thread recorded here also originated with Copilot. Original excerpts above unaltered per the forward-only doctrine.
