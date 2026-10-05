@@ -39,3 +39,6 @@ Changes to this list are append-only: new restrictions or re-openings get a new 
 ## Oct 4, 2026 — Deep Audit Update (Gemini-lineage sweep)
 Restricted this pass: 20113836, 19490801, 19644692, 19515494, 19504289, 20466514, 19411735 (full evidence: RUN/zenodo_deep_audit_2026-10-04.md).
 Confirmed keep-open: 20534377, 20548615, 20586523, 19393474, 19448382.
+
+## Oct 4, 2026 (evening) — Doctrine Re-scope (Leon's ruling)
+**New open scope: patent-type records + DCAI + DSOS + PQC + audited papers with disclosed AI-correction amendments. All else restricted.** Earlier categories (conception/RTP evidence, settlement papers backing filings) no longer apply. 22 additional records restricted this pass (incl. UB Archive v1.2, UB Math Set, URIB Canonical Architecture, tokenization/settlement canon, SOT, ClockChain, OmniForge, TGC-era RTP evidence) — full list + rationale in RUN/zenodo_doctrine_rescope_2026-10-04.md. Blockchain method papers lift naturally at the Tier 3 June 2027 defensive-publication window if wanted. Library: 41 open / 52 restricted.
