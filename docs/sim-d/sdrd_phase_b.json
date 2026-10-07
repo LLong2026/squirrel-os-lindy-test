@@ -1,0 +1,146 @@
+[
+ {
+  "position": 0,
+  "run": 1,
+  "anomaly_type": "token_overrun",
+  "playbook": "PB-004 Token Overrun Optimizer",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 40,
+  "run": 1,
+  "anomaly_type": "latency_spike",
+  "playbook": "PB-003 Latency Spike Resolver",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 80,
+  "run": 1,
+  "anomaly_type": "heartbeat_miss",
+  "playbook": "PB-008 Heartbeat Re-igniter",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 120,
+  "run": 1,
+  "anomaly_type": "heartbeat_miss",
+  "playbook": "PB-008 Heartbeat Re-igniter",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 160,
+  "run": 1,
+  "anomaly_type": "crypto_key_stale",
+  "playbook": "PB-010 Crypto Key Rotator",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 200,
+  "run": 1,
+  "anomaly_type": "token_overrun",
+  "playbook": "PB-004 Token Overrun Optimizer",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 0,
+  "run": 2,
+  "anomaly_type": "token_overrun",
+  "playbook": "PB-004 Token Overrun Optimizer",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 40,
+  "run": 2,
+  "anomaly_type": "latency_spike",
+  "playbook": "PB-003 Latency Spike Resolver",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 80,
+  "run": 2,
+  "anomaly_type": "heartbeat_miss",
+  "playbook": "PB-008 Heartbeat Re-igniter",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 120,
+  "run": 2,
+  "anomaly_type": "heartbeat_miss",
+  "playbook": "PB-008 Heartbeat Re-igniter",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 160,
+  "run": 2,
+  "anomaly_type": "crypto_key_stale",
+  "playbook": "PB-010 Crypto Key Rotator",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 200,
+  "run": 2,
+  "anomaly_type": "token_overrun",
+  "playbook": "PB-004 Token Overrun Optimizer",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 0,
+  "run": 3,
+  "anomaly_type": "token_overrun",
+  "playbook": "PB-004 Token Overrun Optimizer",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 40,
+  "run": 3,
+  "anomaly_type": "latency_spike",
+  "playbook": "PB-003 Latency Spike Resolver",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 80,
+  "run": 3,
+  "anomaly_type": "heartbeat_miss",
+  "playbook": "PB-008 Heartbeat Re-igniter",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 120,
+  "run": 3,
+  "anomaly_type": "heartbeat_miss",
+  "playbook": "PB-008 Heartbeat Re-igniter",
+  "steps_executed": 2,
+  "status": "healed"
+ },
+ {
+  "position": 160,
+  "run": 3,
+  "anomaly_type": "crypto_key_stale",
+  "playbook": "PB-010 Crypto Key Rotator",
+  "steps_executed": 3,
+  "status": "healed"
+ },
+ {
+  "position": 200,
+  "run": 3,
+  "anomaly_type": "token_overrun",
+  "playbook": "PB-004 Token Overrun Optimizer",
+  "steps_executed": 3,
+  "status": "healed"
+ }
+]
