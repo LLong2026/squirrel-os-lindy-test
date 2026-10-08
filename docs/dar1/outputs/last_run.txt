@@ -1,0 +1,58 @@
+===== drain_queue.js =====
+input_sha256:  cb32ad7ad96585dee2ad7d5172892ab8fa9f6a69ec1e7ec891cfcb55ca30c0bd
+output_sha256: 31607d24bcd3d2a13e3f56c5ce3e58edb30e7351e72f104578bf6f3778e6ecb3
+byte-identical across runs: True
+
+map: drainQueue
+state: queue (sequence), drained (scalar)
+init:  drained₀ = 0 ; queue₀ = queue
+guard: Gₜ ≡ ((len(queueₜ) > 0) ∧ (drainedₜ < limit))
+itemₜ = head(queueₜ)
+cases:
+  (itemₜ.retry) : queueₜ₊₁ = append(tail(queueₜ), itemₜ) ; drainedₜ₊₁ = drainedₜ
+  (¬(itemₜ.retry)) : queueₜ₊₁ = tail(queueₜ) ; drainedₜ₊₁ = (drainedₜ + 1)
+termination: τ = min{ t ≥ 0 : ¬Gₜ }
+result: drained_τ
+
+
+===== healing_loop.js =====
+input_sha256:  94efed8443ed6ab8f6ae794c15b344ad458fd7e65cdbe26078b70de325c15027
+output_sha256: 1d3c51dfc14e1c533a2ff759af15ed850e08ea524716e439c1d1c4d2b0e56555
+byte-identical across runs: True
+
+map: healingLoop
+state: state (scalar)
+init:  state₀ = system.initial
+guard: Gₜ ≡ ¬(system.healthy)
+anomalyₜ = detect(stateₜ)
+step: stateₜ₊₁ = verify(heal(isolate(stateₜ, anomalyₜ), anomalyₜ))
+termination: τ = min{ t ≥ 0 : ¬Gₜ }
+result: state_τ
+
+
+===== rejected_two_loops.js =====
+input_sha256:  1f9b21e68d4e2243b07d33c087bb79d454564af5a5bde7df449f8d6d9e97b0af
+output_sha256: 915e71f9fd99b271a6ca0cafb61f8fdabbaf1970c43842bd9b912e2e6d7ba5e0
+byte-identical across runs: True
+
+UNSUPPORTED: exactly ONE while loop is required (the step relation)
+
+
+===== retry_backoff.js =====
+input_sha256:  1461cc0c08f9b6edf6deedc561fc65adfa4e9f4339b5caa3f43ab004177c67f6
+output_sha256: 8593a939fcf2a4cb10729ce146ea0f7ed3dea3c50077eb149c9f3fc1618a1753
+byte-identical across runs: True
+
+map: retryWithBackoff
+state: pending (sequence), attempts (scalar), done (scalar)
+init:  attempts₀ = 0 ; done₀ = 0 ; pending₀ = tasks
+guard: Gₜ ≡ ((len(pendingₜ) > 0) ∧ (attemptsₜ < maxRetries))
+taskₜ = head(pendingₜ)
+pendingₜ* = tail(pendingₜ)
+cases:
+  (taskₜ.failed) : pendingₜ₊₁ = pendingₜ* ; attemptsₜ₊₁ = (attemptsₜ + 1) ; doneₜ₊₁ = doneₜ
+  (¬(taskₜ.failed)) : pendingₜ₊₁ = pendingₜ* ; attemptsₜ₊₁ = attemptsₜ ; doneₜ₊₁ = (doneₜ + 1)
+termination: τ = min{ t ≥ 0 : ¬Gₜ }
+result: done_τ
+
+
