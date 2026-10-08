@@ -19,7 +19,7 @@ Document Version: 1.0.0
  Document Status: Released — Final
  Document Identifier: DRRB-SPEC-1-0-0
 Intended Audience: Senior Engineers · System Architects · Technical Product Owners
-INTERNAL TECHNICAL STANDARD  |  JASPER RUNTIME PROGRAM  |  © 2026  |  ALL RIGHTS RESERVED
+PUBLIC RELEASE — PRIOR ART & OPEN STUDY MATERIAL  |  JASPER RUNTIME PROGRAM  |  © 2026 LEON CALVIN LONG II  |  ALL RIGHTS RESERVED
 Deterministic Runtime Recipe Book  |  Table of Contents  |  v1.0.0
 Table of Contents
 PART I — INVARIANT BOUNDARY PRIMER
@@ -1552,7 +1552,7 @@ Runtime guards, watchdogs, circuit breakers (during execution)
 Tier 3 — Recovery:
 Rollback, checkpoint restore, poison message quarantine (post-violation)
 Deterministic Runtime Recipe Book  |  Document Version 1.0.0  |  September 2026  |  DRRB-SPEC-1-0-0
- A Formal Engineering Specification for Deterministic System Construction  |  All Rights Reserved
+ A Formal Engineering Specification for Deterministic System Construction  |  Public Release Edition  |  © 2026 Leon Calvin Long II  |  All Rights Reserved
 
 ================================================================================
 
