@@ -25,7 +25,7 @@ SquirlOS Technologies LLC holds an **exclusive commercial license** to market, d
 
 Every item below is backed by a USPTO receipt. Nothing on this list is aspirational.
 
-### Patents Pending — 8 Provisional Applications
+### Patents Pending — 9 Provisional Applications
 
 | # | Application | Title / Subject | Filing Date (USPTO Receipt) |
 |---|---|---|---|
@@ -37,6 +37,7 @@ Every item below is backed by a USPTO receipt. Nothing on this list is aspiratio
 | 6 | 64/119,191 | Deterministically Governed Probabilistic Neural Computation | July 25, 2026 |
 | 7 | 64/145,825 | Self-Healing AI Infrastructure with Chaos-Trained Neural Mesh | September 1, 2026 |
 | 8 | 64/157,915 | Deterministic Constitutional Autonomous Infrastructure Systems and Methods | September 18, 2026 |
+| 9 | 64/174,202 | Human-Approved Deterministic Finality of Probabilistic Agent Actions via Consensus Gating, Shape-Sum Verification, and Post-Quantum Commitment | October 11, 2026 |
 
 **Application 64/157,915** (Patent Center #81949126, Confirmation #1786) carries the core of the ecosystem in a single linked inventive concept: the Deterministic Runtime Pipeline (Claims 1-5) and the Method of Construction and Operation of Constitutional Autonomous Infrastructure (Claim 6).
 
@@ -46,7 +47,7 @@ Active across NIST (AI RMF + PQC), NSF (neural mesh), DOE (cybersecurity), and D
 ### Prior-Art Shield
 An earlier published application (19/693,343) is retained **as published prior art only** — a conception-date shield for the pending provisionals. It is not counted in the portfolio and is cited only where prior-art value requires it.
 
-**Canonical public count: 8 patents pending + 5 SBIR tracks. Never more, never less, never "patent pending" on an unfiled concept.**
+**Canonical public count: 9 patents pending + 5 SBIR tracks (updated October 11, 2026, upon receipt of 64/174,202). Never more, never less, never "patent pending" on an unfiled concept.**
 
 ---
 
